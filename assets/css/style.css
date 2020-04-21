@@ -1,13 +1,14 @@
-/* body */ 
+/* body */
 body {
-    background-color: #000;
+  background-color: #000;
 }
 
-rj-main-left {
-    height: 100vh;
-     background: url(assets/img/emxheroimage3.jpg) no-repeat 0% 0% fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+.rj-main-left {
+  height: 100vh;
+  background: url(../img/emxheroimage3.jpg) no-repeat 0% 0% fixed;
+  background-size: auto;
+}
+
+.rj-test {
+    background-color: #fff;
 }
