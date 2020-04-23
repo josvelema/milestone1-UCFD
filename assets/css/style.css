@@ -3,11 +3,19 @@ body {
   background-color: #000;
 }
 
-.rj-main-left {
+.rj-main {
     height: 100vh;
-  background: url(../img/emxheroimage3.jpg) no-repeat 0% 0% fixed;
+  background:#282c34 url("../img/emxheroimage2.jpg") no-repeat fixed -80px -120px;
+  background-size: cover;
   }
 
-.rj-main-right {
-    background: #300B03;
+.rj-about {
+height: 100vh;
+background:#282c34;
 }
+
+.rj-music {
+height: 100vh;
+background:#282c34;
+}
+
