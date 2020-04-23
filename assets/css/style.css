@@ -4,11 +4,10 @@ body {
 }
 
 .rj-main-left {
-  height: 100vh;
+    height: 100vh;
   background: url(../img/emxheroimage3.jpg) no-repeat 0% 0% fixed;
-  background-size: auto;
-}
+  }
 
-.rj-test {
-    background-color: #fff;
+.rj-main-right {
+    background: #300B03;
 }
