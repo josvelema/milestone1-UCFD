@@ -11,11 +11,14 @@ body {
 
 .rj-about {
 height: 100vh;
-background:#282c34;
+background:#304051;
 }
 
 .rj-music {
 height: 100vh;
-background:#282c34;
+background:#657586;
 }
-
+.rj-footer {
+    height: 100vh;
+    background: #929eac;
+}
