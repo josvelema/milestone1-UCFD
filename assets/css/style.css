@@ -13,14 +13,14 @@ body {
 height: 100vh;
 background:#304051;
 }
-
-.rj-carousel {
-max-width: 75vw;
-max-height: 60vw;
+.rj-containerwrap {
+    min-height: 70vh;
 }
-.rj-carousel img{
-    max-width: 75vw;
-max-height: 60vw;
+.rj-carousel {
+min-width: 70vw !important;
+min-height: 60vh !important;
+max-width: 80vw !important;
+max-height: 70vh !important;
 }
 
 .rj-music {
