@@ -1,8 +1,17 @@
-/* body */
+
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
   background-color: #000;
 }
 
+.row {
+margin: 0;
+
+}
 .rj-main {
     height: 100vh;
   background:#282c34 url("../img/emxheroimage2.jpg") no-repeat fixed -80px -120px;
@@ -16,12 +25,20 @@ background:#304051;
 .rj-containerwrap {
     min-height: 70vh;
 }
-.rj-carousel {
-min-width: 70vw !important;
-min-height: 60vh !important;
-max-width: 80vw !important;
-max-height: 70vh !important;
+
+.rj-carousel-container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
+.rj-carousel {
+min-width: 80vw !important;
+min-height: 70vh !important;
+max-width: 90vw !important;
+max-height: 80vh !important;
+}
+
+
 
 .rj-music {
 height: 100vh;
