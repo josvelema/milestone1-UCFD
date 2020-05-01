@@ -1,4 +1,8 @@
-
+/*
+font-family: 'IBM Plex Mono', monospace;
+font-family: 'Ubuntu Mono', monospace;
+font-family: 'Turret Road', cursive , sans serif;
+*/
 
 html {
     scroll-behavior: smooth;
@@ -6,7 +10,7 @@ html {
 
 body {
   background-color: #000;
-  color: #ce640a;
+  color: #B45809;
 }
 
 .row {
@@ -23,6 +27,32 @@ nav {
     color: white;
 }
 
+h1 {
+        text-shadow: #2c323c 1px 1px 0, 2px 2px 2px rgba(206,100,10,0.91);
+         font-size: 4rem;
+    margin: 13px 15px;
+}
+
+h2 {
+    font-family: 'Ubuntu Mono', monospace;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+word-spacing: 5px;
+    color: #face6d;
+    font-size: 2rem;
+    margin: 5px 10px 5px 20px;
+    padding: 5px 0 5px 5px;
+    text-shadow: 2px 2px 0 #282c34, 2px -2px 0 #282c34, -2px 2px 0 #282c34, -2px -2px 0 #282c34, 2px 0px 0 #282c34, 0px 2px 0 #282c34, -2px 0px 0 #282c34, 0px -2px 0 #282c34, 0px 0px 0px #2c323c;
+}
+
+blockquote p {
+    color: #F3f3f3;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 300;
+    font-size:18px;
+    padding: 5px 0 5px 5px;
+    }
 
 .rj-section {
     width: 100%;
