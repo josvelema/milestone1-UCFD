@@ -6,6 +6,7 @@ html {
 
 body {
   background-color: #000;
+  color: #ce640a;
 }
 
 .row {
@@ -71,7 +72,8 @@ background: linear-gradient(to bottom, #304051 0%, #2A3847 40%, #102947 100%);
 background: #102947;
 background: -moz-linear-gradient(top, #102947 0%, #0E243E 40%, #091727 100%);
 background: -webkit-linear-gradient(top, #102947 0%, #0E243E 40%, #091727 100%);
-background: linear-gradient(to bottom, #102947 0%, #0E243E 40%, #091727 100%);}
+background: linear-gradient(to bottom, #102947 0%, #0E243E 40%, #091727 100%);
+}
 
 /* 
 .rj-main {
@@ -101,6 +103,18 @@ background:#304051;
 }
 
 */
+
+#demoObject {
+    width:26rem;
+    min-height: 30vh;
+    max-height: 80vh;
+border: 1px solid #0E243E;
+border-radius: 6px;
+-webkit-box-shadow: 3px 3px 5px 1px #623A24; 
+box-shadow: 3px 3px 5px 1px #623A24;;
+background: #9D5D3A;
+}
+
 
 .rj-carousel-container {
     width: 100%;
