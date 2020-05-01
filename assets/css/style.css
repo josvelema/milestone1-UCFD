@@ -51,7 +51,7 @@ blockquote p {
     font-family: 'IBM Plex Mono', monospace;
     font-weight: 300;
     font-size:18px;
-    padding: 5px 0 5px 5px;
+    margin: 5px 10px 5px 10px;
     }
 
 .rj-section {
@@ -135,7 +135,7 @@ background:#304051;
 */
 
 #demoObject {
-    width:26rem;
+    width:75vw;
     min-height: 30vh;
     max-height: 80vh;
 border: 1px solid #0E243E;
