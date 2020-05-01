@@ -37,27 +37,43 @@ nav {
   top:-4em;
   }
 
-#intro {}
+#intro {
+background: #C4CBD3;
+background: -moz-linear-gradient(top, #C4CBD3 0%, #ACB2B9 40%, #929EAC 100%);
+background: -webkit-linear-gradient(top, #C4CBD3 0%, #ACB2B9 40%, #929EAC 100%);
+background: linear-gradient(to bottom, #C4CBD3 0%, #ACB2B9 40%, #929EAC 100%);
+}
 
 
 
 #music {
-background:#657586;
+background: #929EAC;
+background: -moz-linear-gradient(top, #929EAC 0%, #808A97 40%, #657586 100%);
+background: -webkit-linear-gradient(top, #929EAC 0%, #808A97 40%, #657586 100%);
+background: linear-gradient(to bottom, #929EAC 0%, #808A97 40%, #657586 100%);
 }
 
 #about {
-background:#304051;
+background: #657586;
+background: -moz-linear-gradient(top, #657586 0%, #586675 40%, #304051 100%);
+background: -webkit-linear-gradient(top, #657586 0%, #586675 40%, #304051 100%);
+background: linear-gradient(to bottom, #657586 0%, #586675 40%, #304051 100%);
 }
 
 #events {
-
+background: #304051;
+background: -moz-linear-gradient(top, #304051 0%, #2A3847 40%, #102947 100%);
+background: -webkit-linear-gradient(top, #304051 0%, #2A3847 40%, #102947 100%);
+background: linear-gradient(to bottom, #304051 0%, #2A3847 40%, #102947 100%);
 }
 
 #footer {
-    background: #929eac;
-}
+background: #102947;
+background: -moz-linear-gradient(top, #102947 0%, #0E243E 40%, #091727 100%);
+background: -webkit-linear-gradient(top, #102947 0%, #0E243E 40%, #091727 100%);
+background: linear-gradient(to bottom, #102947 0%, #0E243E 40%, #091727 100%);}
 
-
+/* 
 .rj-main {
    background:#282c34 url("../img/emxheroimage2.jpg") no-repeat fixed -80px -120px;
   background-size: cover;
@@ -83,6 +99,8 @@ background:#304051;
 .rj-footer {
     background: #929eac;
 }
+
+*/
 
 .rj-carousel-container {
     width: 100%;
