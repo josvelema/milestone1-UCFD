@@ -55,7 +55,7 @@ blockquote p {
     }
 
 .rj-section {
-    width: 100%;
+    width: 100vw;
     margin: auto;
     padding-top: 3em;
     min-height: 100vh;
@@ -182,9 +182,7 @@ background:#304051;
 */
 
 #demoObject {
-    width:75vw;
-    min-height: 30vh;
-    max-height: 80vh;
+
 border: 1px solid #0E243E;
 border-radius: 6px;
 -webkit-box-shadow: 3px 3px 5px 1px #623A24; 
