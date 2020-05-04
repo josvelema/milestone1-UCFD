@@ -75,6 +75,7 @@ blockquote p {
     height: 100vh;
     width: 100vw;
     background: url("../img/emxheroimage2.jpg") no-repeat center center;
+    background-size: cover;
       animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -104,6 +105,23 @@ background: -webkit-linear-gradient(top, #C4CBD3 0%, #ACB2B9 40%, #929EAC 100%);
 background: linear-gradient(to bottom, #C4CBD3 0%, #ACB2B9 40%, #929EAC 100%);
 }
 
+#rj-img-circle-out{
+    width: 300px;
+    height:300px;
+    padding:20px;
+    border-style: solid;
+    border-color:#cccccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin:0 auto;
+
+}
+ 
+#rj-img-circle-in{
+    background: url("../img/josintro.jpg") no-repeat center left;
+     height:100%;
+    border-radius: 50%;
+}
 
 
 #music {
