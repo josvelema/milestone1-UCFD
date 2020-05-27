@@ -30,7 +30,7 @@ nav {
 h1 {
     text-shadow: #2c323c 1px 1px 0, 2px 2px 2px rgba(206,100,10,0.91);
     font-size: 4rem;
-    margin: 13px 15px;
+    margin: 10px 10px;
 }
 
 h2 {
@@ -41,7 +41,7 @@ h2 {
 word-spacing: 5px;
     color: #face6d;
     font-size: 2rem;
-    margin: 5px 10px 5px 20px;
+    margin: 5px 10px 5px 10px;
     padding: 5px 0 5px 5px;
     text-shadow: 2px 2px 0 #282c34, 2px -2px 0 #282c34, -2px 2px 0 #282c34, -2px -2px 0 #282c34, 2px 0px 0 #282c34, 0px 2px 0 #282c34, -2px 0px 0 #282c34, 0px -2px 0 #282c34, 0px 0px 0px #2c323c;
 }
@@ -64,9 +64,9 @@ blockquote p {
 
 #main {
    background:#282c34 url("../img/emxheroimage2.jpg") no-repeat fixed;
-  background-size: cover;
-  top:-4em;
-      animation-name: hero-zoom;
+    background-size: cover;
+    top:-4em;
+    animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
   }
@@ -81,7 +81,7 @@ blockquote p {
     animation-fill-mode: forwards;
 
 }
-
+/*
 #rj-main-out{
     height:100vh;
     width: 100vw;
@@ -97,7 +97,7 @@ blockquote p {
         transform: scale(1.1);
     }
 }
-
+*/
 #intro {
 background: #C4CBD3;
 background: -moz-linear-gradient(top, #C4CBD3 0%, #ACB2B9 40%, #929EAC 100%);
@@ -181,13 +181,19 @@ background:#304051;
 
 */
 
-#demoObject {
-
+.rj-article-container {
+max-width: 66vw;
+min-height: 50vh;
+max-height: 60vh;
 border: 1px solid #0E243E;
 border-radius: 6px;
 -webkit-box-shadow: 3px 3px 5px 1px #623A24; 
 box-shadow: 3px 3px 5px 1px #623A24;;
 background: #9D5D3A;
+position: absolute;
+left: 25%;
+bottom: 75%;
+
 }
 
 
