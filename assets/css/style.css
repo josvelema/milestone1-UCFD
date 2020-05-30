@@ -4,6 +4,7 @@ font-family: 'Ubuntu Mono', monospace;
 font-family: 'Turret Road', cursive , sans serif;
 */
 
+
 html {
     scroll-behavior: smooth;
 }
@@ -53,6 +54,66 @@ blockquote p {
     font-size:18px;
     margin: 5px 10px 5px 10px;
     }
+
+.rj-list-container {
+    width: 400px;
+    background-color: white;
+    position: absolute;
+    z-index: 30;
+    top: 320px;
+    left: 100px;
+    border-radius: 30px;
+    bottom: 20px;
+}
+
+.rj-list {
+    padding-left: 20px;
+    padding-right: 20px;
+    overflow-y: scroll;
+    height: 100%;
+}
+
+.rj-container {
+    display: flex;
+    border-bottom: 1px solid #979797;
+    cursor: pointer;
+}
+
+.rj-info-container {
+    flex-grow: 1;
+}
+
+.rj-address {
+    font-size: 21px;
+    color: #514C4C;
+    margin-top: 30px;
+}
+
+.rj-phone-number {
+    color: #B5ADAD;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.rj-number-container {
+    align-items: center;
+    display: flex;
+}
+
+.rj-number {
+    width: 30px;
+    height: 30px;
+    background-color: #454E53;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.rj-address span {
+    display: block;
+}
 
 .rj-section {
     width: 100vw;
