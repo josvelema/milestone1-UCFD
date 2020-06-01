@@ -100,7 +100,9 @@ bottom: 75%;
 
 .rj-list::-webkit-scrollbar-track {
   border: 1px solid #000;
+   border-radius: 10px;
   padding: 2px 0;
+  margin: 2px;
   background-color: #404040;
 }
 
@@ -138,21 +140,31 @@ bottom: 75%;
 }
 
 .rj-icon-container {
-    align-items: center;
+    padding: 5px;
+    margin-left: 25vw;
+    margin-right: 25vw;
     display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .rj-icon {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
+    margin: 5px 10px 5px 10px;
     background-color: #454E53;
     color: white;
+    font-size: 22px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
 }
 
+.rj-icon i{
+    color: white;
+}
 .rj-address span {
     display: block;
 }
