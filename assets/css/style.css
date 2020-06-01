@@ -12,6 +12,7 @@ html {
 body {
   background-color: #000;
   color: #B45809;
+  max-width: 100vw !important;
 }
 
 .row {
@@ -136,12 +137,12 @@ bottom: 75%;
     margin-bottom: 15px;
 }
 
-.rj-number-container {
+.rj-icon-container {
     align-items: center;
     display: flex;
 }
 
-.rj-number {
+.rj-icon {
     width: 30px;
     height: 30px;
     background-color: #454E53;
