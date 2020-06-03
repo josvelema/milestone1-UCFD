@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  background-color: #000;
+  background-color: #ffffff;
   color: #b45809;
   font-size: 18px;
   }
@@ -60,6 +60,21 @@ blockquote p {
   font-weight: 300;
   font-size: 18px;
   margin: 5px 10px 5px 10px;
+}
+
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.row {
+    margin: 0;
+}
+
+.navbar {
+    padding-left: 0px;
+    padding-right: 0px;
+
 }
 
 /* All div's with rj- are my custom div's (Reindert Jos) */
@@ -305,34 +320,6 @@ blockquote p {
   background: linear-gradient(to bottom, #102947 0%, #0e243e 40%, #091727 100%);
 }
 
-/* 
-.rj-main {
-   background:#282c34 url("../img/emxheroimage2.jpg") no-repeat fixed -80px -120px;
-  background-size: cover;
-  }
-
-.rj-intro-about {}
-
-
-
-.rj-music {
-background:#657586;
-}
-
-.rj-about {
-background:#304051;
-}
-
-.rj-events {
-
-}
-
-
-.rj-footer {
-    background: #929eac;
-}
-
-*/
 
 .rj-article-container {
   max-width: 66vw;
@@ -348,14 +335,3 @@ background:#304051;
   bottom: 75%;
 }
 
-.rj-carousel-container {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-}
-.rj-carousel {
-  min-width: 80vw !important;
-  min-height: 70vh !important;
-  max-width: 90vw !important;
-  max-height: 80vh !important;
-}
