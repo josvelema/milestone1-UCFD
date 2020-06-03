@@ -12,24 +12,25 @@ body {
   background-color: #ffffff;
   color: #b45809;
   font-size: 18px;
-  }
+}
 
-a , .rj-icon {
-    text-decoration: none;
-transition: all .23s ease-in-out;
--webkit-transition: all .23s ease-in-out;
--moz-transition: all .23s ease-in-out;
--ms-transition: all .23s ease-in-out;
--o-transition: all .23s ease-in-out;
+a,
+.rj-icon {
+  text-decoration: none;
+  transition: all 0.23s ease-in-out;
+  -webkit-transition: all 0.23s ease-in-out;
+  -moz-transition: all 0.23s ease-in-out;
+  -ms-transition: all 0.23s ease-in-out;
+  -o-transition: all 0.23s ease-in-out;
 }
 
 a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 nav {
   min-height: 4em;
-  background:transparent;
+  background: transparent;
   color: white;
 }
 
@@ -63,18 +64,17 @@ blockquote p {
 }
 
 .container-fluid {
-    padding-left: 0px;
-    padding-right: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .row {
-    margin: 0;
+  margin: 0;
 }
 
 .navbar {
-    padding-left: 0px;
-    padding-right: 0px;
-
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 /* All div's with rj- are my custom div's (Reindert Jos) */
@@ -154,7 +154,6 @@ blockquote p {
   justify-content: space-around;
 }
 
-
 .rj-icon {
   width: 40px;
   height: 40px;
@@ -173,16 +172,15 @@ blockquote p {
   border-bottom: 0px;
   border-top: 2px solid white;
   border-left: 1px solid white;
-  background-color: red;   
+  background-color: red;
 }
 
-.rj-icon:active{
-    backgroundcolor: blue;
+.rj-icon:active {
+  backgroundcolor: blue;
 }
 .rj-icon i {
   color: white;
 }
-
 
 .rj-misc-icon {
   width: 40px;
@@ -190,9 +188,9 @@ blockquote p {
   color: white;
   font-size: 24px;
   position: absolute;
-  bottom:10px;
-  right:5px;
-  }
+  bottom: 10px;
+  right: 5px;
+}
 .rj-misc-icon i {
   color: white;
 }
@@ -208,14 +206,6 @@ blockquote p {
   min-height: 100vh;
 }
 
-#main {
-  background: #282c34 url("../img/emxheroimage2.jpg") no-repeat fixed;
-  background-size: cover;
-    animation-name: hero-zoom;
-  animation-duration: 5s;
-  animation-fill-mode: forwards;
-}
-
 #rj-main-in {
   height: 100vh;
   width: 100vw;
@@ -225,23 +215,6 @@ blockquote p {
   animation-duration: 5s;
   animation-fill-mode: forwards;
 }
-/*
-#rj-main-out{
-    height:100vh;
-    width: 100vw;
-    overflow:hidden;
-    position: relative;
-}
-
-@keyframes hero-zoom {
-    from{
-        transform: scale(1);
-    }
-    to{
-        transform: scale(1.1);
-    }
-}
-*/
 
 #intro {
   background: #c4cbd3;
@@ -320,6 +293,37 @@ blockquote p {
   background: linear-gradient(to bottom, #102947 0%, #0e243e 40%, #091727 100%);
 }
 
+.rj-article-wrapper {
+  width: 100%;
+  margin: auto;
+  padding-top: 3em;
+  min-height: 100vh;
+}
+
+.rj-section-container {
+  margin: 2em 0 2em 0;
+  width: 100%;
+}
+
+.rj-section {
+  padding: 15px;
+  position: relative;
+  border: 1px solid #0e243e;
+  border-radius: 6px;
+  -webkit-box-shadow: 3px 3px 5px 1px #623a24;
+  box-shadow: 3px 3px 5px 1px #623a24;
+  background: #9d5d3a;
+}
+
+.rj-article-header {
+  margin-top: 5em;
+  margin-bottom: 2em;
+  text-align: right;
+  width: 100%;
+  height: 2em;
+  overflow: hidden;
+  line-height: 2em;
+}
 
 .rj-article-container {
   max-width: 66vw;
@@ -334,4 +338,3 @@ blockquote p {
   left: 25%;
   bottom: 75%;
 }
-
