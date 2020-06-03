@@ -11,8 +11,8 @@ html {
 body {
   background-color: #000;
   color: #b45809;
-  max-width: 100vw !important;
-}
+  font-size: 18px;
+  }
 
 a , .rj-icon {
     text-decoration: none;
@@ -27,17 +27,9 @@ a:hover {
     text-decoration: none;
 }
 
-.row {
-  margin: 0;
-}
-
-.navbar {
-  padding: 10px 10px;
-}
-
 nav {
   min-height: 4em;
-  background-color: rgba(60, 60, 60, 0.5);
+  background:transparent;
   color: white;
 }
 
@@ -73,22 +65,7 @@ blockquote p {
 /* All div's with rj- are my custom div's (Reindert Jos) */
 
 /* small container for top page with quick links */
-/*
-.rj-article-container {
-max-width: 66vw;
-min-height: 50vh;
-max-height: 60vh;
-border: 1px solid #0E243E;
-border-radius: 6px;
--webkit-box-shadow: 3px 3px 5px 1px #623A24; 
-box-shadow: 3px 3px 5px 1px #623A24;;
-background: #9D5D3A;
-position: absolute;
-left: 25%;
-bottom: 75%;
 
-}
-*/
 .rj-list-container {
   width: 400px;
   height: 80vh;
@@ -110,6 +87,8 @@ bottom: 75%;
   overflow-y: scroll;
   height: 100%;
 }
+
+/* Custom scrollbar as found by asking on stackoverflow.com */
 
 .rj-list::-webkit-scrollbar-track {
   border: 1px solid #000;
@@ -133,7 +112,6 @@ bottom: 75%;
 .rj-container {
   display: flex;
   border-bottom: 1px solid #979797;
-  cursor: pointer;
 }
 
 .rj-info-container {
@@ -165,14 +143,14 @@ bottom: 75%;
 .rj-icon {
   width: 40px;
   height: 40px;
-  margin: 5px 10px 5px 10px;
+  margin: 5px 20px 5px 20px;
   background-color: #454e53;
   color: white;
   font-size: 22px;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-bottom: 2px solid white;
+  border: 2px solid white;
   border-radius: 50%;
 }
 
@@ -191,6 +169,19 @@ bottom: 75%;
 }
 
 
+.rj-misc-icon {
+  width: 40px;
+  height: 40px;
+  color: white;
+  font-size: 24px;
+  position: absolute;
+  bottom:10px;
+  right:5px;
+  }
+.rj-misc-icon i {
+  color: white;
+}
+
 .rj-address span {
   display: block;
 }
@@ -205,8 +196,7 @@ bottom: 75%;
 #main {
   background: #282c34 url("../img/emxheroimage2.jpg") no-repeat fixed;
   background-size: cover;
-  top: -4em;
-  animation-name: hero-zoom;
+    animation-name: hero-zoom;
   animation-duration: 5s;
   animation-fill-mode: forwards;
 }
