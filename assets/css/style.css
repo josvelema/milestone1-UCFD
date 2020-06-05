@@ -65,7 +65,7 @@ blockquote p {
 }
 
 .wrapper {
-    padding: 0;
+  padding: 0;
 }
 
 .container-fluid {
@@ -88,11 +88,11 @@ blockquote p {
 /* container for text and links */
 
 .rj-container2-wrap {
-  width: 66vw;  
+  width: 66vw;
   min-width: 350px;
   max-width: 90vw;
   height: 60vh;
-  max-height: 66vh; 
+  max-height: 66vh;
   border: 1px solid #0e243e;
   border-radius: 6px;
   -webkit-box-shadow: 3px 3px 5px 1px #623a24;
@@ -115,8 +115,6 @@ blockquote p {
 .rj-container span {
   display: inline;
 }
-
-
 
 /* Custom scrollbar as found by asking on stackoverflow.com */
 
@@ -171,7 +169,7 @@ blockquote p {
   height: 34px;
   margin: 5px 10px 5px 10px;
   background-color: #454e53;
-  color:#f3f3f3;
+  color: #f3f3f3;
   font-size: 18px;
   justify-content: center;
   align-items: center;
@@ -214,7 +212,6 @@ blockquote p {
   display: block;
 }
 
-
 #rj-main-in {
   background: url("../img/emxheroimage2.jpg") no-repeat center center;
   background-size: cover;
@@ -242,7 +239,7 @@ blockquote p {
   border: 1px solid #0e243e;
   border-radius: 50%;
   margin: 0 auto;
-    -webkit-box-shadow: 3px 3px 5px 1px #623a24;
+  -webkit-box-shadow: 3px 3px 5px 1px #623a24;
   box-shadow: 3px 3px 5px 1px #623a24;
   background: #9d5d3a;
   position: relative;
@@ -251,10 +248,9 @@ blockquote p {
 #rj-img-circle-in {
   background: url("../img/josintro.jpg") no-repeat center left;
   height: 100%;
-   border: 1px solid #0e243e;
+  border: 1px solid #0e243e;
   border-radius: 50%;
 }
-
 
 #rj-img-square-out {
   width: 350px;
@@ -264,7 +260,7 @@ blockquote p {
   border: 1px solid #0e243e;
   border-radius: 6px;
   margin: 0 auto;
-    -webkit-box-shadow: 3px 3px 5px 1px #623a24;
+  -webkit-box-shadow: 3px 3px 5px 1px #623a24;
   box-shadow: 3px 3px 5px 1px #623a24;
   background: #9d5d3a;
   position: relative;
@@ -274,10 +270,9 @@ blockquote p {
   background: url("../img/josstreet.jpg") no-repeat center left;
   background-size: contain;
   height: 100%;
-   border: 1px solid #0e243e;
+  border: 1px solid #0e243e;
   border-radius: 6px;
 }
-
 
 #music {
   background: #929eac;
@@ -290,8 +285,6 @@ blockquote p {
   );
   background: linear-gradient(to bottom, #929eac 0%, #808a97 40%, #657586 100%);
 }
-
-
 
 #about {
   background: #657586;
@@ -331,9 +324,8 @@ blockquote p {
 
 .rj-generic-wrapper {
   width: 100%;
-  margin:0 auto;
+  margin: 0 auto;
   padding-top: 10px;
-  
 }
 
 .rj-section-container {
@@ -342,14 +334,13 @@ blockquote p {
 }
 
 .rj-section {
-display: flex;
-top: -5rem;
+  display: flex;
+  top: -5rem;
   max-width: 100vw;
   min-height: 100vh;
   padding: 10px 15px 10px 15px;
   position: relative;
   justify-content: flex-start;
-  
 }
 
 .rj-article-container {
@@ -363,4 +354,25 @@ top: -5rem;
   background: #9d5d3a;
   position: relative;
   padding: 15px 10px 15px 10px;
+}
+.rj-social-container {
+  
+  margin: 0 auto;
+}
+
+.rj-social {
+  display: flex;
+  width: 150px;
+  height: 20px;
+  border: 1px solid #0e243e;
+  border-radius: 6px;
+  -webkit-box-shadow: 3px 3px 5px 1px #623a24;
+  box-shadow: 3px 3px 5px 1px #623a24;
+  background: #9d5d3a;
+  color: #f3f3f3;
+position: absolute;
+  padding: 15px 10px 15px 10px;
+  bottom: 10px;
+  justify-content: center;
+  align-items: center;
 }
