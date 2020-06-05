@@ -291,13 +291,13 @@ blockquote p {
 
 .rj-article-wrapper {
   width: 100%;
-  margin: auto;
+  margin:0 auto;
   padding-top: 3em;
   min-height: 100vh;
 }
 
 .rj-section-container {
-  margin: 2em 0 2em 0;
+  margin: 20em 20em 2em 0;
   width: 100%;
 }
 
@@ -306,14 +306,10 @@ display: flex;
 top: -5rem;
   max-width: 100vw;
   height: 100vh;
-  padding: 15px;
+  padding: 0px;
   position: relative;
-  border: 1px solid #0e243e;
-  border-radius: 6px;
-  -webkit-box-shadow: 3px 3px 5px 1px #623a24;
-  box-shadow: 3px 3px 5px 1px #623a24;
-  background: #9d5d3a;
   justify-content: flex-start;
+
 }
 
 .rj-article-container {
