@@ -238,6 +238,10 @@ blockquote p {
   border: 1px solid #0e243e;
   border-radius: 50%;
   margin: 0 auto;
+    -webkit-box-shadow: 3px 3px 5px 1px #623a24;
+  box-shadow: 3px 3px 5px 1px #623a24;
+  background: #9d5d3a;
+  position: relative;
 }
 
 #rj-img-circle-in {
@@ -246,6 +250,30 @@ blockquote p {
    border: 1px solid #0e243e;
   border-radius: 50%;
 }
+
+
+#rj-img-square-out {
+  width: 350px;
+  height: 350px;
+  padding: 8px;
+  background: #9d5d3a;
+  border: 1px solid #0e243e;
+  border-radius: 6px;
+  margin: 0 auto;
+    -webkit-box-shadow: 3px 3px 5px 1px #623a24;
+  box-shadow: 3px 3px 5px 1px #623a24;
+  background: #9d5d3a;
+  position: relative;
+}
+
+#rj-img-square-in {
+  background: url("../img/josstreet.jpg") no-repeat center left;
+  background-size: contain;
+  height: 100%;
+   border: 1px solid #0e243e;
+  border-radius: 6px;
+}
+
 
 #music {
   background: #929eac;
@@ -258,6 +286,8 @@ blockquote p {
   );
   background: linear-gradient(to bottom, #929eac 0%, #808a97 40%, #657586 100%);
 }
+
+
 
 #about {
   background: #657586;
@@ -312,7 +342,7 @@ display: flex;
 top: -5rem;
   max-width: 100vw;
   height: 100vh;
-  padding: 0px;
+  padding: 10px 15px 10px 15px;
   position: relative;
   justify-content: flex-start;
 
@@ -328,4 +358,5 @@ top: -5rem;
   box-shadow: 3px 3px 5px 1px #623a24;
   background: #9d5d3a;
   position: relative;
+  padding: 15px 10px 15px 10px;
 }
