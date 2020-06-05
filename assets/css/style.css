@@ -171,26 +171,27 @@ blockquote p {
   height: 34px;
   margin: 5px 10px 5px 10px;
   background-color: #454e53;
-  color: white;
+  color:#f3f3f3;
   font-size: 18px;
   justify-content: center;
   align-items: center;
-  border: 2px solid white;
+  border: 2px solid #bbc0ca;
   border-radius: 50%;
 }
 
 .rj-icon:hover {
-  border-bottom: 0px;
-  border-top: 2px solid white;
-  border-left: 1px solid white;
-  background-color: red;
+  border: 2px inset #a4abb8;
+  background-color: #ce640a;
 }
 
 .rj-icon:active {
   backgroundcolor: blue;
 }
 .rj-icon i {
-  color: white;
+  color: #f3f3f3;
+}
+.rj-icon i:hover {
+  color: #304051;
 }
 
 .rj-misc-icon {
