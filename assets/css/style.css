@@ -38,7 +38,7 @@ h1 {
   text-shadow: #2c323c 1px 1px 0, 2px 2px 2px rgba(206, 100, 10, 0.91);
   font-size: 4rem;
   padding-top: 4rem;
-  margin: 0 auto;
+  margin: 10px 10px;
 }
 
 h2 {
@@ -317,7 +317,7 @@ top: -5rem;
 .rj-article-header {
   margin-top: 5em;
   margin-bottom: 2em;
-  text-align: right;
+  text-align: center;
   width: 100%;
   height: 2em;
   overflow: hidden;
@@ -336,4 +336,9 @@ top: -5rem;
   position: absolute;
   left: 25%;
   bottom: 75%;
+}
+
+.content-container {
+    padding-left: 75px;
+    padding-bottom: 75px;
 }
