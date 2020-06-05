@@ -87,7 +87,7 @@ blockquote p {
 
 /* small container for top page with quick links */
 
-.rj-list-container {
+.rj-container2-wrap {
   width: 400px;
   height: 80vh;
   border: 1px solid #0e243e;
@@ -102,16 +102,22 @@ blockquote p {
   bottom: 20px;
 }
 
-.rj-list {
+.rj-container2 {
   padding-left: 20px;
   padding-right: 20px;
   overflow-y: scroll;
   height: 100%;
 }
 
+.rj-container span {
+  display: inline;
+}
+
+
+
 /* Custom scrollbar as found by asking on stackoverflow.com */
 
-.rj-list::-webkit-scrollbar-track {
+.rj-container2::-webkit-scrollbar-track {
   border: 1px solid #000;
   border-radius: 10px;
   padding: 2px 0;
@@ -119,33 +125,33 @@ blockquote p {
   background-color: #404040;
 }
 
-.rj-list::-webkit-scrollbar {
+.rj-container2::-webkit-scrollbar {
   width: 10px;
 }
 
-.rj-list::-webkit-scrollbar-thumb {
+.rj-container2::-webkit-scrollbar-thumb {
   border-radius: 10px;
   box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
   background-color: #737272;
   border: 1px solid #000;
 }
 
-.rj-container {
+.rj-content-wrap {
   display: flex;
   border-bottom: 1px solid #979797;
 }
 
-.rj-info-container {
+.rj-content-box {
   flex-grow: 1;
 }
 
-.rj-address {
+.rj-content-text {
   font-size: 21px;
   color: #514c4c;
   margin-top: 30px;
 }
 
-.rj-phone-number {
+.rj-content-link {
   color: #b5adad;
   margin-top: 15px;
   margin-bottom: 15px;
@@ -200,7 +206,7 @@ blockquote p {
   color: white;
 }
 
-.rj-address span {
+.rj-content-text span {
   display: block;
 }
 
@@ -289,7 +295,7 @@ blockquote p {
   background: linear-gradient(to bottom, #102947 0%, #0e243e 40%, #091727 100%);
 }
 
-.rj-article-wrapper {
+.rj-generic-wrapper {
   width: 100%;
   margin:0 auto;
   padding-top: 3em;
