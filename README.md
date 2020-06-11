@@ -1,8 +1,6 @@
 # Seldom Seen electronic artist page
 
-One or two paragraphs providing an overview of your project.
-
-Essentially, this part is your sales pitch.
+Because the underground artist Seldom Seen was in fact seldom seen , i created an website for him so that he would get more attention as an artist. 
  
 ## UX
  
