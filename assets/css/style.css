@@ -14,7 +14,6 @@ body {
   font-size: 18px;
 }
 
-
 /*
 * {
   background: #000 !important;
@@ -23,8 +22,8 @@ body {
 }
 */
 
-
-a, i ,
+a,
+i,
 .rj-icon {
   text-decoration: none;
   transition: all 0.23s ease-in-out;
@@ -246,7 +245,7 @@ blockquote p {
 }
 
 .rj-social-container {
-  display: flex;  
+  display: flex;
   align-items: flex-end;
   justify-content: center;
   padding: 30px;
@@ -254,24 +253,22 @@ blockquote p {
   width: 100%;
 }
 
-.rj-social-container i{
- background-color: #454e53;
- padding: 8px;
+.rj-social-container i {
+  background-color: #454e53;
+  padding: 8px;
   color: #f3f3f3;
   font-size: 24px;
   border: 2px solid #fafafa;
-  border-radius:50%;
+  border-radius: 50%;
 }
 
-
-.rj-social-container i:hover{
-  color: #454E53;
+.rj-social-container i:hover {
+  color: #454e53;
   border: 2px inset #fafafa;
   background-color: #ce640a;
 }
 
 /* <<<<<<<<<<<<<<<<< containers >>>>>>>>>>> */
-
 
 .rj-generic-wrapper {
   width: 100%;
@@ -322,15 +319,23 @@ blockquote p {
   margin: 15px 10px 15px 10px;
 }
 
-.rj-music-iframe
-{
-    
+#rj-music-iframe {
+  width: 90vw;
+  height: 300px;
+  border: 1px solid #0e243e;
+  border-radius: 6px;
+  -webkit-box-shadow: 3px 3px 5px 1px #623a24;
+  box-shadow: 3px 3px 5px 1px #623a24;
+  background: #9d5d3a;
+  position: relative;
+  overflow-y: scroll;
+
 }
 /* container for carousel and custom bootstrap styling to be responsive 
 >>>>> image contain found on stackoverflow */
 
 .rj-carousel-container {
-    max-width: 90vw;
+  max-width: 90vw;
   min-height: 80vh;
   max-height: 90vh;
   border: 1px solid #0e243e;
@@ -383,7 +388,6 @@ blockquote p {
   box-shadow: 3px 3px 5px 1px #623a24;
   background: #9d5d3a;
   position: relative;
-  
 }
 
 #rj-img-circle-in {
@@ -468,16 +472,14 @@ blockquote p {
 
 /*  <<<<<<<<<<<<<<<< media query >>>>>>>>>> */
 
-
 @media screen and (max-width: 1393px) {
-    #rj-img-circle-out {
-        width: 200px;
-        height: 200px;
-    }
+  #rj-img-circle-out {
+    width: 200px;
+    height: 200px;
+  }
 
-    #rj-img-square-out {
-        width: 250px;
-        height: 250px;
-    }
+  #rj-img-square-out {
+    width: 250px;
+    height: 250px;
+  }
 }
-
