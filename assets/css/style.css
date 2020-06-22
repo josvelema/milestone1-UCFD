@@ -23,7 +23,7 @@ body {
 */
 
 a {
-    color: #f3f3f3;
+  color: #f3f3f3;
 }
 
 a,
@@ -50,11 +50,11 @@ nav {
 h1 {
   text-shadow: #2c323c 1px 1px 0, 2px 2px 2px rgba(206, 100, 10, 0.91);
   font-family: "IBM Plex Mono", monospace;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 400;
   padding-top: 2rem;
   margin: 0 auto;
-  line-height: 5rem;
+  line-height: 3rem;
   text-align: center;
 }
 
@@ -233,8 +233,8 @@ blockquote p {
 }
 
 .rj-icon-navtext {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .rj-misc-icon {
@@ -338,7 +338,6 @@ blockquote p {
   background: #9d5d3a;
   position: relative;
   overflow-y: scroll;
-
 }
 /* container for carousel and custom bootstrap styling to be responsive 
 >>>>> image contain found on stackoverflow */
@@ -355,15 +354,83 @@ blockquote p {
   position: relative;
   padding: 15px 10px 15px 10px;
   margin: 15px 10px 15px 10px;
+  object-fit: contain;
+  font-size: 15px;
 }
 
 .carousel .carousel-inner img {
-    display: flex;
+  display: flex;
+  position: relative;
+  border: 1px solid #0e243e;
+  border-radius: 6px;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 30em;
   object-fit: contain;
   overflow: hidden;
   align-items: start;
+  padding: 10px;
+}
+.carousel-indicators {
+  margin: 10px;
+  padding: 5px;
+}
+.carousel-indicators li {
+  background-color: #ce640a;
+  width: 15px;
+  height: 15px;
+ border: 1px solid #0e243e;
+  border-radius: 100%;
+}
+.carousel-indicators .active {
+  background-color: #face6d !important;
+}
+
+.carousel-caption {
+  position: relative;
+  border: 1px solid #0e243e;
+  border-radius: 6px;
+  top: 0;
+  left: 0;
+  color: black;
+  text-align: left;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.carousel .carousel-control-next,
+.carousel .carousel-control-prev {
+  z-index: 999;
+  width: 45px;
+  height: 45px;
+  font-size: 30px;
+  background: rgba(255, 255, 255, 0.25) none repeat scroll 0 0;
+  border-radius: 100%;
+  padding: 0 0 10px 0px;
+  line-height: 20px;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.carousel .carousel-control-prev,
+.carousel .carousel-control-next {
+  top: 50%;
+  bottom: 50%;
+  width: 5%;
+  opacity: 1;
+  position: absolute;
+}
+
+.carousel .carousel-control-prev,
+.carousel .carousel-control-next {
+  font-size: 30px;
+  background: none;
+}
+
+.carousel .carousel-control-next {
+  right: 20px;
 }
 
 #rj-main-in {
