@@ -256,7 +256,9 @@ blockquote p {
 .rj-social-container {
   display: flex;
   align-items: flex-end;
-  justify-content: center;
+  justify-content: flex-end;
+  flex-flow: column wrap;
+  
   padding: 30px;
   margin-bottom: 30px;
   width: 100%;
@@ -281,7 +283,7 @@ blockquote p {
 
 .rj-generic-wrapper {
   width: 100%;
-  padding-top: 10px;
+ 
   float: left;
 }
 
@@ -292,7 +294,7 @@ blockquote p {
 
 .rj-section {
   display: flex;
-  top: -5rem;
+  
   max-width: 100vw;
   min-height: 100vh;
   padding: 10px 15px 10px 15px;
@@ -442,12 +444,14 @@ blockquote p {
 }
 
 #rj-main-in {
-  background: url("../img/emxheroimage2.jpg") no-repeat center center;
+
+  background: url("../img/emxheroimage2.jpg") no-repeat center bottom;
   background-size: cover;
   background-attachment: fixed;
   overflow: hidden;
   padding: 0px;
   margin: 0 auto;
+
 }
 
 #intro {
