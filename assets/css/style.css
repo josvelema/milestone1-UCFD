@@ -344,8 +344,8 @@ blockquote p {
 >>>>> image contain found on stackoverflow */
 
 .rj-carousel-container {
-  max-width: 90vw;
-  min-height: 80vh;
+  max-width: 80vw;
+  min-height: 70vh;
   max-height: 90vh;
   border: 1px solid #0e243e;
   border-radius: 6px;
@@ -488,7 +488,7 @@ blockquote p {
   }
 
   #rj-img-square-out {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
   }
 }
