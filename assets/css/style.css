@@ -22,6 +22,10 @@ body {
 }
 */
 
+a {
+    color: #f3f3f3;
+}
+
 a,
 i,
 .rj-icon {
@@ -219,13 +223,18 @@ blockquote p {
 }
 
 .rj-icon:active {
-  backgroundcolor: blue;
+  background-color: blue;
 }
 .rj-icon i {
   color: #f3f3f3;
 }
 .rj-icon i:hover {
   color: #304051;
+}
+
+.rj-icon-navtext {
+    display: flex;
+    align-items: center;
 }
 
 .rj-misc-icon {
