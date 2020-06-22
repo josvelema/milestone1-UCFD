@@ -343,9 +343,9 @@ blockquote p {
 >>>>> image contain found on stackoverflow */
 
 .rj-carousel-container {
-  max-width: 80vw;
-  min-height: 70vh;
-  max-height: 90vh;
+  max-width: 80%;
+  min-height: 70%;
+  max-height: 90%;
   border: 1px solid #0e243e;
   border-radius: 6px;
   -webkit-box-shadow: 3px 3px 5px 1px #623a24;
@@ -361,8 +361,7 @@ blockquote p {
 .carousel .carousel-inner img {
   display: flex;
   position: relative;
-  border: 1px solid #0e243e;
-  border-radius: 6px;
+ 
   top: 0;
   left: 0;
   width: 100%;
@@ -372,14 +371,19 @@ blockquote p {
   align-items: start;
   padding: 10px;
 }
+.rj-carousel-img {
+      border: 1px solid #0e243e !important;
+  border-radius: 6px;
+}
+
 .carousel-indicators {
   margin: 10px;
   padding: 5px;
 }
 .carousel-indicators li {
   background-color: #ce640a;
-  width: 15px;
-  height: 15px;
+  width: 10px;
+  height: 10px;
  border: 1px solid #0e243e;
   border-radius: 100%;
 }
@@ -416,8 +420,8 @@ blockquote p {
 
 .carousel .carousel-control-prev,
 .carousel .carousel-control-next {
-  top: 50%;
-  bottom: 50%;
+  top: 70%;
+  bottom: 70%;
   width: 5%;
   opacity: 1;
   position: absolute;
@@ -431,6 +435,10 @@ blockquote p {
 
 .carousel .carousel-control-next {
   right: 20px;
+}
+
+.carousel .carousel-control-prev {
+  left: 20px;
 }
 
 #rj-main-in {
@@ -560,4 +568,60 @@ blockquote p {
     width: 200px;
     height: 200px;
   }
+
+}
+
+/* ipad media query */
+@media screen and (max-width:1024px){
+    .rj-carousel-container {
+  max-width: 100%;
+  min-height: 70%;
+  max-height: 90%;
+  }
+}
+@media screen and (min-width:768px) and (max-width:1024px) and (orientation:landscape){
+
+.rj-carousel-container {
+  max-width: 100%;
+  min-height: 70%;
+  max-height: 90%;
+  }
+
+}
+/* ipad pro media query */
+@media screen and (max-width:1366px){
+    .rj-carousel-container {
+  max-width: 100%;
+  min-height: 70%;
+  max-height: 90%;
+  }
+}
+@media screen and (min-width:1024px) and (max-width:1366px) and (orientation:landscape){
+
+.rj-carousel-container {
+  max-width: 100%;
+  min-height: 70%;
+  max-height: 90%;
+  }
+
+}
+
+
+
+/* iphone query */
+
+ @media screen and (max-width:736px){
+    .rj-carousel-container {
+  max-width: 100%;
+  min-height: 70%;
+  max-height: 90%;
+  }
+}
+@media screen and (min-width:375px) and (max-width:812px) and (orientation:landscape){
+
+.rj-carousel-container {
+  max-width: 100%;
+  height: 80vw;
+  }
+
 }
