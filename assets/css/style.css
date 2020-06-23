@@ -61,7 +61,6 @@ h1 {
   margin: 0 auto;
   line-height: 4rem;
   text-align: left;
-  left: 8rem;
 }
 
 h2 {
@@ -93,14 +92,22 @@ h3 {
     -2px 0px 0 #4074b5, 0px -2px 0 #4074b5, 5px 5px 4px #4a4a4f;
 }
 
-p {
-  word-wrap: break-word;
+h6 {
+      color: #304051;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 500;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  text-align: center;
+  line-height: 1.2em;
 }
 
-blockquote p {
-  color: #f3f3f3;
+
+blockquote, p {
+  color: #304051;
   font-family: "IBM Plex Mono", monospace;
   font-weight: 300;
+  word-wrap: break-word;
   font-size: 18px;
   margin: 5px 10px 5px 10px;
 }
@@ -142,6 +149,7 @@ nav,
   top: 3em;
 }
 
+
 .dropdown-item i {
   font-size: 14px;
   padding-right: 10px;
@@ -155,10 +163,14 @@ nav,
   padding: 4px 8px 4px 8px;
   margin: 4px;
 }
-.dropdown-divider {
-        border:1px dashed #0e243e;
-height: 6px;
+.dropdown-item:hover{
+background: #ce640a;
 }
+.dropdown-item:active{
+background: #ce640a;
+}
+
+
 
 /* All div's with rj- are my custom div's (Reindert Jos) */
 
@@ -180,8 +192,8 @@ height: 6px;
 }
 
 .rj-container2 {
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
   overflow-y: scroll;
   height: 100%;
 }
@@ -222,13 +234,13 @@ height: 6px;
 
 .rj-content-text {
   font-size: 18px;
-  color: #fafafa;
+  color: #304051;
   margin-top: 5px;
   word-wrap: break-word;
 }
 
 .rj-content-link {
-  color: #fafafa;
+  color: #becafa;
   margin-top: 10px;
   margin-bottom: 15px;
   text-align: center;
@@ -243,7 +255,6 @@ height: 6px;
 .rj-icon,
 .rj-hamburger {
   display: flex;
-
   justify-content: center;
   align-items: center;
   width: 34px;
@@ -257,6 +268,10 @@ height: 6px;
 .rj-hamburger {
   border: 2px solid #bbc0ca;
   border-radius: 25%;
+}
+.rj-hamburger:hover {
+background: #ce640a;
+  color: #304051;
 }
 
 .rj-icon-container {
@@ -275,7 +290,7 @@ height: 6px;
 }
 
 .rj-icon:active {
-  background-color: blue;
+  background-color: #becafa;
 }
 .rj-icon i {
   color: #f3f3f3;
@@ -416,7 +431,8 @@ height: 6px;
 
 .carousel-indicators {
   margin: 10px;
-  padding: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 .carousel-indicators li {
   background-color: #ce640a;
@@ -437,9 +453,15 @@ height: 6px;
   left: 0;
   color: black;
   text-align: left;
-  padding: 10px;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom:10px;
+}
+
+.carousel-caption p {
+    font-size: 14px;
+ padding: 5px;
 }
 
 .carousel .carousel-control-next,
