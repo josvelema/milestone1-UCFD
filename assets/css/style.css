@@ -42,9 +42,7 @@ a:hover {
 }
 
 nav {
-  min-height: 4em;
-  background: transparent;
-  color: white;
+  min-height: 2em;
 }
 
 h1 {
@@ -116,6 +114,11 @@ blockquote p {
 .navbar {
   padding-left: 0px;
   padding-right: 0px;
+  background-color: rgba(157, 93, 58, 0.6);
+}
+
+.dropdown-toggle:after {
+  display: none;
 }
 
 /* All div's with rj- are my custom div's (Reindert Jos) */
@@ -198,21 +201,32 @@ blockquote p {
 
 /* icon containers and styles */
 
-.rj-icon-container {
-  padding: 5px;
-  margin: 0 auto;
-}
-
-.rj-icon {
+.rj-icon,
+.rj-hamburger {
   display: flex;
+
+  justify-content: center;
+  align-items: center;
   width: 34px;
   height: 34px;
   margin: 5px 10px 5px 10px;
   background-color: #454e53;
   color: #f3f3f3;
   font-size: 18px;
-  justify-content: center;
-  align-items: center;
+}
+
+.rj-hamburger {
+      border: 2px solid #bbc0ca;
+  border-radius: 25%;
+}
+
+.rj-icon-container {
+  padding: 5px;
+  margin: 0 auto;
+}
+
+.rj-icon {
+
   border: 2px solid #bbc0ca;
   border-radius: 50%;
 }
@@ -237,28 +251,12 @@ blockquote p {
   align-items: center;
 }
 
-.rj-misc-icon {
-  display: flex;
-  width: 40px;
-  height: 40px;
-  color: white;
-  font-size: 24px;
-  position: absolute;
-  bottom: 30px;
-  right: 5px;
-  justify-content: center;
-  align-items: flex-end;
-}
-.rj-misc-icon i {
-  color: white;
-}
-
 .rj-social-container {
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
   flex-flow: column wrap;
-  
+
   padding: 30px;
   margin-bottom: 30px;
   width: 100%;
@@ -283,7 +281,7 @@ blockquote p {
 
 .rj-generic-wrapper {
   width: 100%;
- 
+
   float: left;
 }
 
@@ -294,7 +292,7 @@ blockquote p {
 
 .rj-section {
   display: flex;
-  
+
   max-width: 100vw;
   min-height: 100vh;
   padding: 10px 15px 10px 15px;
@@ -363,7 +361,7 @@ blockquote p {
 .carousel .carousel-inner img {
   display: flex;
   position: relative;
- 
+
   top: 0;
   left: 0;
   width: 100%;
@@ -374,7 +372,7 @@ blockquote p {
   padding: 10px;
 }
 .rj-carousel-img {
-      border: 1px solid #0e243e !important;
+  border: 1px solid #0e243e !important;
   border-radius: 6px;
 }
 
@@ -386,7 +384,7 @@ blockquote p {
   background-color: #ce640a;
   width: 10px;
   height: 10px;
- border: 1px solid #0e243e;
+  border: 1px solid #0e243e;
   border-radius: 100%;
 }
 .carousel-indicators .active {
@@ -444,14 +442,12 @@ blockquote p {
 }
 
 #rj-main-in {
-
   background: url("../img/emxheroimage2.jpg") no-repeat center bottom;
   background-size: cover;
   background-attachment: fixed;
   overflow: hidden;
   padding: 0px;
   margin: 0 auto;
-
 }
 
 #intro {
@@ -572,60 +568,51 @@ blockquote p {
     width: 200px;
     height: 200px;
   }
-
 }
 
 /* ipad media query */
-@media screen and (max-width:1024px){
-    .rj-carousel-container {
-  max-width: 100%;
-  min-height: 70%;
-  max-height: 90%;
+@media screen and (max-width: 1024px) {
+  .rj-carousel-container {
+    max-width: 100%;
+    min-height: 70%;
+    max-height: 90%;
   }
 }
-@media screen and (min-width:768px) and (max-width:1024px) and (orientation:landscape){
-
-.rj-carousel-container {
-  max-width: 100%;
-  min-height: 70%;
-  max-height: 90%;
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .rj-carousel-container {
+    max-width: 100%;
+    min-height: 70%;
+    max-height: 90%;
   }
-
 }
 /* ipad pro media query */
-@media screen and (max-width:1366px){
-    .rj-carousel-container {
-  max-width: 100%;
-  min-height: 70%;
-  max-height: 90%;
+@media screen and (max-width: 1366px) {
+  .rj-carousel-container {
+    max-width: 100%;
+    min-height: 70%;
+    max-height: 90%;
   }
 }
-@media screen and (min-width:1024px) and (max-width:1366px) and (orientation:landscape){
-
-.rj-carousel-container {
-  max-width: 100%;
-  min-height: 70%;
-  max-height: 90%;
+@media screen and (min-width: 1024px) and (max-width: 1366px) and (orientation: landscape) {
+  .rj-carousel-container {
+    max-width: 100%;
+    min-height: 70%;
+    max-height: 90%;
   }
-
 }
-
-
 
 /* iphone query */
 
- @media screen and (max-width:736px){
-    .rj-carousel-container {
-  max-width: 100%;
-  min-height: 70%;
-  max-height: 90%;
+@media screen and (max-width: 736px) {
+  .rj-carousel-container {
+    max-width: 100%;
+    min-height: 70%;
+    max-height: 90%;
   }
 }
-@media screen and (min-width:375px) and (max-width:812px) and (orientation:landscape){
-
-.rj-carousel-container {
-  max-width: 100%;
-  height: 80vw;
+@media screen and (min-width: 375px) and (max-width: 812px) and (orientation: landscape) {
+  .rj-carousel-container {
+    max-width: 100%;
+    height: 80vw;
   }
-
 }
