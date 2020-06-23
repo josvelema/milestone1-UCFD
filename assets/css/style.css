@@ -23,7 +23,7 @@ body {
 */
 
 a {
-  color: #f3f3f3;
+color: #BECAFA;
 }
 
 a,
@@ -39,21 +39,29 @@ i,
 
 a:hover {
   text-decoration: none;
+  color: #faeebe;
 }
 
 nav {
-  min-height: 2em;
+  max-height: 3em;
+  font-family: "Ubuntu Mono", monospace;
+  font-weight: 700;
+  font-size: 1.3rem;
+    border: 1px solid #0e243e;
+  
 }
 
 h1 {
+    position: relative;
   text-shadow: #2c323c 1px 1px 0, 2px 2px 2px rgba(206, 100, 10, 0.91);
   font-family: "IBM Plex Mono", monospace;
   font-size: 2rem;
   font-weight: 400;
-  padding-top: 2rem;
+  padding-top: 3rem;
   margin: 0 auto;
-  line-height: 3rem;
-  text-align: center;
+  line-height: 4rem;
+  text-align: left;
+  left: 8rem;
 }
 
 h2 {
@@ -111,6 +119,7 @@ blockquote p {
   margin: 0;
 }
 
+nav,
 .navbar {
   padding-left: 0px;
   padding-right: 0px;
@@ -119,6 +128,36 @@ blockquote p {
 
 .dropdown-toggle:after {
   display: none;
+}
+
+.dropdown-menu {
+  border: 1px solid #0e243e;
+  border-radius: 6px;
+  -webkit-box-shadow: 3px 3px 5px 1px #623a24;
+  box-shadow: 3px 3px 5px 1px #623a24;
+  background: #9d5d3a;
+  position: relative;
+  padding: 4px 8px 4px 8px;
+  margin: 4px;
+  top: 3em;
+}
+
+.dropdown-item i {
+  font-size: 14px;
+  padding-right: 10px;
+}
+.dropdown-item {
+  font-family: "Ubuntu Mono", monospace;
+  font-weight: 400;
+  text-align: left;
+  border: 1px solid #0e243e;
+  border-radius: 6px;
+  padding: 4px 8px 4px 8px;
+  margin: 4px;
+}
+.dropdown-divider {
+        border:1px dashed #0e243e;
+height: 6px;
 }
 
 /* All div's with rj- are my custom div's (Reindert Jos) */
@@ -216,19 +255,18 @@ blockquote p {
 }
 
 .rj-hamburger {
-      border: 2px solid #bbc0ca;
+  border: 2px solid #bbc0ca;
   border-radius: 25%;
 }
 
 .rj-icon-container {
-  padding: 5px;
   margin: 0 auto;
 }
 
 .rj-icon {
-
   border: 2px solid #bbc0ca;
   border-radius: 50%;
+
 }
 
 .rj-icon:hover {
@@ -241,7 +279,7 @@ blockquote p {
 }
 .rj-icon i {
   color: #f3f3f3;
-}
+   }
 .rj-icon i:hover {
   color: #304051;
 }
