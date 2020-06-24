@@ -179,19 +179,18 @@ div nav {
   -webkit-box-shadow: 3px 3px 5px 1px #623a24;
   box-shadow: 3px 3px 5px 1px #623a24;
   background: #9d5d3a;
-  
-  }
+}
 
 .nav-tabs {
   border: none;
   border-radius: 6px;
   background-color: rgb(155, 75, 8);
-  margin: 4px; 
+  margin: 4px;
   height: 40px;
 }
 
 .nav-tabs .nav-item {
-    display: flex;
+  display: flex;
   font-family: "IBM Plex Mono", monospace;
   font-weight: 400;
   font-size: 14px;
@@ -205,12 +204,9 @@ div nav {
 }
 
 .nav-tabs .nav-item:hover {
-    
-    color: #454e53;
-    background-color: #bacafa;
-    border: 1px solid #454e53;
-    
-
+  color: #454e53;
+  background-color: #bacafa;
+  border: 1px solid #454e53;
 }
 .nav-tabs .nav-item.active {
   background: #ce640a;
@@ -222,10 +218,8 @@ div nav {
 }
 
 .tab-content {
-    width: 75%;
+  width: 75%;
 }
-
-
 
 /* All div's with rj- are my custom div's (Reindert Jos) */
 
@@ -253,6 +247,19 @@ div nav {
   height: 100%;
 }
 
+.rj-welcome-wrap {
+  position: relative;
+  top: 16rem;
+  min-width: 320px;
+  max-width: 80vw;
+  border: 1px solid #0e243e;
+  border-radius: 6px;
+  -webkit-box-shadow: 3px 3px 5px 1px #623a24;
+  box-shadow: 3px 3px 5px 1px #623a24;
+  background: #9d5d3a;
+  margin: 15px 10px 15px 10px;
+}
+
 .rj-container span {
   display: inline;
 }
@@ -269,7 +276,6 @@ div nav {
 
 .rj-container2::-webkit-scrollbar {
   width: 10px;
-
 }
 
 .rj-container2::-webkit-scrollbar-thumb {
@@ -405,7 +411,7 @@ div nav {
   min-height: 100vh;
   padding: 10px 15px 10px 15px;
   position: relative;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 .rj-article-container {
