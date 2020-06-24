@@ -28,6 +28,8 @@ a {
 
 a,
 i,
+div,
+span,
 .rj-icon {
   text-decoration: none;
   transition: all 0.23s ease-in-out;
@@ -109,6 +111,7 @@ p {
   word-wrap: break-word;
   font-size: 18px;
   margin: 5px 10px 5px 10px;
+  text-align: left;
 }
 
 .wrapper {
@@ -189,11 +192,13 @@ div nav {
   height: 40px;
 }
 
+.rj-button,
 .nav-tabs .nav-item {
   display: flex;
   font-family: "IBM Plex Mono", monospace;
   font-weight: 400;
   font-size: 14px;
+  letter-spacing: 2px;
   color: #bacafa;
   border: 1px solid #a4abb8;
   border-radius: 6px;
@@ -201,6 +206,20 @@ div nav {
   background-color: #454e53;
   height: 30px;
   align-items: center;
+}
+.rj-button {
+  width: 40%;
+  justify-content: center;
+  align-content: center;
+  margin: 8px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.rj-button:hover {
+  background: #ce640a;
+  border: 2px inset #a4abb8;
+  color: #454e53;
 }
 
 .nav-tabs .nav-item:hover {
@@ -213,12 +232,15 @@ div nav {
   border: 2px inset #a4abb8;
   border-radius: 6px;
   height: 80%;
-
   margin: 2px;
 }
 
 .tab-content {
   width: 75%;
+}
+
+.block-divider {
+  margin: 8px;
 }
 
 /* All div's with rj- are my custom div's (Reindert Jos) */
@@ -246,26 +268,32 @@ div nav {
   overflow-y: scroll;
   height: 100%;
 }
-
+/* --------                 --------------*/
 .rj-welcome-wrap {
   position: relative;
   top: 16rem;
   min-width: 320px;
   max-width: 80vw;
-  height:300px;
+  height: 300px;
   border: 1px solid #0e243e;
   border-radius: 6px;
   -webkit-box-shadow: 3px 3px 5px 1px #623a24;
   box-shadow: 3px 3px 5px 1px #623a24;
   background: #9d5d3a;
-  margin: 15px 10px 15px 10px;
+  margin: 8px 6px 8px 6px;
 }
 .rj-welcome {
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 4px;
+  padding-right: 4px;
   height: 100%;
+  text-align: center;
+  line-height: 20px;
 }
 
+.rj-welcome h2 {
+  line-height: 20px;
+}
+/* --------    end welcome             --------------*/
 .rj-container span {
   display: inline;
 }
@@ -293,14 +321,14 @@ div nav {
 
 .rj-content-wrap {
   display: flex;
- 
 }
 
 .rj-content-box {
   flex-grow: 1;
 }
 
-.rj-content-text {
+.rj-content-text,
+.rj-welcome-text {
   font-size: 18px;
   color: #304051;
   margin-top: 5px;
@@ -436,8 +464,8 @@ div nav {
 
 .rj-music-container {
   max-width: 90vw;
-  min-height: 30vh;
-  max-height: 40vh;
+  min-height: 20vh;
+  max-height: 30vh;
   border: 1px solid #0e243e;
   border-radius: 6px;
   -webkit-box-shadow: 3px 3px 5px 1px #623a24;
