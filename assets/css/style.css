@@ -252,12 +252,18 @@ div nav {
   top: 16rem;
   min-width: 320px;
   max-width: 80vw;
+  height:300px;
   border: 1px solid #0e243e;
   border-radius: 6px;
   -webkit-box-shadow: 3px 3px 5px 1px #623a24;
   box-shadow: 3px 3px 5px 1px #623a24;
   background: #9d5d3a;
   margin: 15px 10px 15px 10px;
+}
+.rj-welcome {
+  padding-left: 5px;
+  padding-right: 5px;
+  height: 100%;
 }
 
 .rj-container span {
@@ -287,7 +293,7 @@ div nav {
 
 .rj-content-wrap {
   display: flex;
-  border-bottom: 1px solid #979797;
+ 
 }
 
 .rj-content-box {
