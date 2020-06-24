@@ -1,8 +1,6 @@
-/*
-font-family: 'IBM Plex Mono', monospace;
-font-family: 'Ubuntu Mono', monospace;
-font-family: 'Turret Road', cursive , sans serif;
-*/
+/* Seldom Seen electronic CSS all styles with rj- are custom styles */
+
+/* HTML elements */
 
 html {
   scroll-behavior: smooth;
@@ -113,7 +111,7 @@ p {
   margin: 5px 10px 5px 10px;
   text-align: left;
 }
-
+/* Bootstrap styles */
 .wrapper {
   padding: 0;
 }
@@ -127,6 +125,7 @@ p {
 .row {
   margin: 0;
 }
+/* customized bootstrap nav and dropdown menu */
 
 nav,
 .navbar {
@@ -183,7 +182,7 @@ div nav {
   box-shadow: 3px 3px 5px 1px #623a24;
   background: #9d5d3a;
 }
-
+/* custom nav for biography section and custom button */
 .nav-tabs {
   border: none;
   border-radius: 6px;
@@ -243,10 +242,10 @@ div nav {
   margin: 8px;
 }
 
-/* All div's with rj- are my custom div's (Reindert Jos) */
 
-/* container for text and links */
 
+/* my own containers */
+/* container with scroll bar*/
 .rj-container2-wrap {
   width: 66vw;
   min-width: 320px;
@@ -268,7 +267,7 @@ div nav {
   overflow-y: scroll;
   height: 100%;
 }
-/* --------                 --------------*/
+/* welcome call to action container */
 .rj-welcome-wrap {
   position: relative;
   top: 16rem;
@@ -293,7 +292,7 @@ div nav {
 .rj-welcome h2 {
   line-height: 20px;
 }
-/* --------    end welcome             --------------*/
+
 .rj-container span {
   display: inline;
 }
@@ -461,6 +460,7 @@ div nav {
   padding: 15px 10px 15px 10px;
   margin: 15px 10px 15px 10px;
 }
+/* music section containers and iframe custom */
 
 .rj-music-container {
   max-width: 90vw;
@@ -597,6 +597,7 @@ div nav {
   left: 20px;
 }
 
+/* rj-main-in contains hero image used with permission */
 #rj-main-in {
   background: url("../img/emxheroimage2.jpg") no-repeat center bottom;
   background-size: cover;
@@ -631,7 +632,7 @@ div nav {
   background: #9d5d3a;
   position: relative;
 }
-
+/* circle and square containers for images */
 #rj-img-circle-in {
   background: url("../img/josintro.jpg") no-repeat center left;
   background-size: contain;
@@ -711,6 +712,8 @@ div nav {
   );
   background: linear-gradient(to bottom, #102947 0%, #0e243e 40%, #091727 100%);
 }
+
+/* end */
 
 /*  <<<<<<<<<<<<<<<< media query >>>>>>>>>> */
 
