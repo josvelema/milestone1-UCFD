@@ -110,6 +110,7 @@ p {
   font-size: 18px;
   margin: 5px 10px 5px 10px;
   text-align: left;
+  
 }
 /* Bootstrap styles */
 .wrapper {
@@ -241,8 +242,6 @@ div nav {
 .block-divider {
   margin: 8px;
 }
-
-
 
 /* my own containers */
 /* container with scroll bar*/
@@ -462,10 +461,10 @@ div nav {
 }
 /* music section containers and iframe custom */
 
-.rj-music-container {
+.rj-music-container,
+.rj-event-container {
   max-width: 90vw;
   min-height: 20vh;
-  max-height: 30vh;
   border: 1px solid #0e243e;
   border-radius: 6px;
   -webkit-box-shadow: 3px 3px 5px 1px #623a24;
@@ -596,6 +595,71 @@ div nav {
 .carousel .carousel-control-prev {
   left: 20px;
 }
+iets {
+  background: #ce640a;
+  color: #304051;
+  border: 2px inset #a4abb8;
+  background-color: #ce640a;
+}
+.rj-section-form {
+  background: url("../img/korgvert.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  border: 1px solid #0e243e;
+  border-radius: 6px;
+}
+
+.rj-form {
+  font-family: "IBM Plex Mono", monospace;
+  color: #bacafa;
+  background-color: rgb(48, 64, 81, 0.5);
+  padding: 6px;
+  border: 1px solid #0e243e;
+  border-radius: 6px;
+}
+
+.rj-form-text {
+  background: #9d5d3a;
+  color: #304051;
+  width: 100%;
+  height: 30px;
+  margin: 5px 0 20px;
+  border: 1px solid #a4abb8;
+  border-radius: 2px;
+}
+
+.rj-form-msg:hover,
+.rj-form-text:hover {
+  border-color: #ce640a;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline-color: #a4abb8;
+}
+
+.rj-form-msg {
+  background: #9d5d3a;
+  color: #304051;
+  width: 340px;
+  height: 300px;
+
+  border: 1px solid #a4abb8;
+}
+
+.rj-form-btn {
+  width: 80px;
+ }
+.rj-form-header {
+    position: relative;
+    padding-top: -3rem;
+    line-height: 4rem;
+}
+
+
 
 /* rj-main-in contains hero image used with permission */
 #rj-main-in {
@@ -701,7 +765,7 @@ div nav {
   background: linear-gradient(to bottom, #304051 0%, #2a3847 40%, #102947 100%);
 }
 
-#footer {
+#events {
   background: #102947;
   background: -moz-linear-gradient(top, #102947 0%, #0e243e 40%, #091727 100%);
   background: -webkit-linear-gradient(
