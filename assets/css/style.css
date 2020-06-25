@@ -101,7 +101,6 @@ h6 {
   line-height: 1.2em;
 }
 
-
 blockquote,
 p {
   color: #304051;
@@ -111,7 +110,6 @@ p {
   font-size: 18px;
   margin: 5px 10px 5px 10px;
   text-align: left;
-  
 }
 /* Bootstrap styles */
 .wrapper {
@@ -124,8 +122,8 @@ p {
   padding-right: 0px;
 }
 .block-divider {
-    height: 1px;
-   background-color: rgba(206,100,10,0.6);
+  height: 1px;
+  background-color: rgba(206, 100, 10, 0.6);
 }
 
 .row {
@@ -177,7 +175,7 @@ nav,
 }
 
 #rj-nav-bio {
-    position: relative;
+  position: relative;
   padding: 2px;
   margin: 0 auto;
   left: 0.5em;
@@ -200,11 +198,11 @@ div nav {
 }
 
 #nav-tabContent {
-position: relative;
-margin-left: 4px;
-margin-right: 4px;
-right: 1rem;
-width: 100%;
+  position: relative;
+  margin-left: 4px;
+  margin-right: 4px;
+  right: 1rem;
+  width: 100%;
 }
 
 .rj-button,
@@ -621,40 +619,37 @@ width: 100%;
   height: 600px;
 }
 
-
-
 .rj-section-form,
-.rj-events{
+.rj-events {
   background-size: cover;
   background-position: center;
   padding: 20px;
-   border-radius: 6px;
-   }
+  border-radius: 6px;
+}
 
 .rj-events-text {
-background-color: rgb(48, 64, 81, 0.5);
-   width: 100%;
+  background-color: rgb(48, 64, 81, 0.5);
+  width: 100%;
   height: 330px;
   border: 1px solid #0e243e;
   border-radius: 6px;
-
 }
 
 .rj-events-text p {
-     color: #bacafa;
-     font-size: 1.2em;
-     font-weight: 500;
-     letter-spacing: 1.5px;
+  color: #bacafa;
+  font-size: 1.2em;
+  font-weight: 500;
+  letter-spacing: 1.5px;
 }
 
 .rj-events a {
-    color: #faeebe;
+  color: #faeebe;
 }
 
 .rj-events a:hover {
-   font-size: 1.03em
+  font-size: 1.03em;
 }
-.rj-form{
+.rj-form {
   font-family: "IBM Plex Mono", monospace;
   color: #bacafa;
   background-color: rgb(48, 64, 81, 0.5);
@@ -698,12 +693,10 @@ button:focus {
   width: 80px;
 }
 .rj-form-header {
-    position: relative;
-    padding-top: -3rem;
-    line-height: 4rem;
+  position: relative;
+  padding-top: -3rem;
+  line-height: 4rem;
 }
-
-
 
 /* rj-main-in contains hero image used with permission */
 #rj-main-in {
@@ -750,9 +743,11 @@ button:focus {
 }
 
 #rj-img-square-out {
-  width: 350px;
-  height: 350px;
+  position: relative;
+  width: 340px;
+  height: 400px;
   padding: 8px;
+  left: 0.5em;
   background: #9d5d3a;
   border: 1px solid #0e243e;
   border-radius: 6px;
@@ -760,16 +755,20 @@ button:focus {
   -webkit-box-shadow: 3px 3px 5px 1px #623a24;
   box-shadow: 3px 3px 5px 1px #623a24;
   background: #9d5d3a;
-  position: relative;
 }
 
 #rj-img-square-in {
   background: url("../img/josstreet.jpg") no-repeat center left;
-  background-size: contain;
+  background-size: cover;
   height: 100%;
   border: 1px solid #0e243e;
   border-radius: 6px;
 }
+#rj-img-square-in h3 {
+  position: relative;
+  top: 21rem;
+}
+
 
 /* <<<<<<<<<<<< section backgrounds >>>>>>>>>>>>>> */
 
@@ -825,7 +824,7 @@ button:focus {
 
 /*  <<<<<<<<<<<<<<<< media query >>>>>>>>>> */
 
-@media screen and (max-width: 1393px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   #rj-img-circle-out {
     width: 200px;
     height: 200px;
