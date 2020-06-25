@@ -122,6 +122,10 @@ p {
   padding-left: 0px;
   padding-right: 0px;
 }
+.block-divider {
+    height: 1px;
+   background-color: rgba(206,100,10,0.6);
+}
 
 .row {
   margin: 0;
@@ -619,7 +623,7 @@ div nav {
 .rj-events-text {
 background-color: rgb(48, 64, 81, 0.5);
    width: 100%;
-  height: 150px;
+  height: 330px;
   border: 1px solid #0e243e;
   border-radius: 6px;
 
@@ -632,7 +636,13 @@ background-color: rgb(48, 64, 81, 0.5);
      letter-spacing: 1.5px;
 }
 
+.rj-events a {
+    color: #faeebe;
+}
 
+.rj-events a:hover {
+   font-size: 1.03em
+}
 .rj-form{
   font-family: "IBM Plex Mono", monospace;
   color: #bacafa;
@@ -675,7 +685,7 @@ button:focus {
 
 .rj-form-btn {
   width: 80px;
- }
+}
 .rj-form-header {
     position: relative;
     padding-top: -3rem;
