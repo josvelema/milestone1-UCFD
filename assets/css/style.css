@@ -177,8 +177,10 @@ nav,
 }
 
 #rj-nav-bio {
+    position: relative;
   padding: 2px;
   margin: 0 auto;
+  left: 0.5em;
 }
 
 div nav {
@@ -195,6 +197,14 @@ div nav {
   background-color: rgb(155, 75, 8);
   margin: 4px;
   height: 40px;
+}
+
+#nav-tabContent {
+position: relative;
+margin-left: 4px;
+margin-right: 4px;
+right: 1rem;
+width: 100%;
 }
 
 .rj-button,
