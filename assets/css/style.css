@@ -109,7 +109,6 @@ p {
   word-wrap: break-word;
   font-size: 18px;
   margin: 5px 10px 5px 10px;
-  text-align: left;
 }
 /* Bootstrap styles */
 .wrapper {
@@ -697,6 +696,39 @@ button:focus {
   padding-top: -3rem;
   line-height: 4rem;
 }
+/*  footer section for credits / disclaimer */
+
+.rj-footer {
+  width: 100%;
+  height: 330px;
+  background: #091727;
+  background: -moz-linear-gradient(top, #091727 0%, #4e210e 45%, #9d5d3a 100%);
+  background: -webkit-linear-gradient(
+    top,
+    #091727 0%,
+    #4e210e 45%,
+    #9d5d3a 100%
+  );
+  background: linear-gradient(to bottom, #091727 0%, #4e210e 45%, #9d5d3a 100%);
+}
+
+.rj-footer-text {
+  background-color: rgb(48, 64, 81, 0.5);
+  text-align: center;
+  
+  width: 100%;
+  height: 250px;
+ padding: 4px;
+  border-radius: 6px;
+}
+.rj-footer-text p{
+    color: #bacafa;
+}
+
+.rj-footer-text a {
+  color: #faeebe;
+}
+
 
 /* rj-main-in contains hero image used with permission */
 #rj-main-in {
@@ -768,7 +800,6 @@ button:focus {
   position: relative;
   top: 21rem;
 }
-
 
 /* <<<<<<<<<<<< section backgrounds >>>>>>>>>>>>>> */
 
