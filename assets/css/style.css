@@ -311,11 +311,11 @@ div nav {
 /* Custom scrollbar as found by asking on stackoverflow.com */
 
 .rj-container2::-webkit-scrollbar-track {
-  border: 1px solid #000;
+  border: 1px solid #0e243e;
   border-radius: 10px;
   padding: 2px 0;
   margin: 2px;
-  background-color: #404040;
+  background-color: rgb(155, 75, 8);
 }
 
 .rj-container2::-webkit-scrollbar {
@@ -324,9 +324,8 @@ div nav {
 
 .rj-container2::-webkit-scrollbar-thumb {
   border-radius: 10px;
-  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-  background-color: #737272;
-  border: 1px solid #000;
+  background-color: #ce640a;
+  border: 1px solid #0e243e;
 }
 
 .rj-content-wrap {
@@ -536,6 +535,19 @@ div nav {
   border-radius: 6px;
 }
 
+.rj-carousel-icon {
+    border: 2px solid #cabbc0;
+    border-radius: 50%;
+    color: #face6d;
+    padding: 2px;
+  font-size: 24px;
+}
+
+.rj-carousel-icon:hover{
+     border: 2px solid #face6d;
+     color: #cabbc0;
+}
+
 .carousel-indicators {
   margin: 10px;
   padding-top: 5px;
@@ -578,6 +590,7 @@ div nav {
   height: 45px;
   font-size: 30px;
   background: rgba(255, 255, 255, 0.25) none repeat scroll 0 0;
+  background-image: none;
   border-radius: 100%;
   padding: 0 0 10px 0px;
   line-height: 20px;
@@ -587,7 +600,7 @@ div nav {
 
 .carousel .carousel-control-prev,
 .carousel .carousel-control-next {
-  top: 70%;
+   top: 70%;
   bottom: 70%;
   width: 5%;
   opacity: 1;
@@ -607,6 +620,7 @@ div nav {
 .carousel .carousel-control-prev {
   left: 20px;
 }
+
 
 .rj-section-form {
   background: url("../img/korgvert.jpg") no-repeat;
@@ -715,20 +729,19 @@ button:focus {
 .rj-footer-text {
   background-color: rgb(48, 64, 81, 0.5);
   text-align: center;
-  
+
   width: 100%;
   height: 250px;
- padding: 4px;
+  padding: 4px;
   border-radius: 6px;
 }
-.rj-footer-text p{
-    color: #bacafa;
+.rj-footer-text p {
+  color: #bacafa;
 }
 
 .rj-footer-text a {
   color: #faeebe;
 }
-
 
 /* rj-main-in contains hero image used with permission */
 #rj-main-in {
