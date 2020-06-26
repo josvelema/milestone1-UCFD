@@ -1,79 +1,132 @@
-# Seldom Seen electronic artist page
+# Seldom Seen electronics
+![sldmsn](readme/amiresponsive.png)
 
-Because the underground artist Seldom Seen was in fact seldom seen , i created an website for him so that he would get more attention as an artist. 
- 
-## UX
- 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+As i am also a music producer , called Seldom Seen , i was in the need of a proper website where users can find more
+information about me , listen to my music and hopefully come visit my future perfomances.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+Visit the site in Github pages [here](https://josvelema.github.io/milestone1-UCFD/cd).
+---
+## 1. UX
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+#### 1.2. User Stories
 
-## Features
+- user story
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
- 
-### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+#### 1.3. Wireframes
+The wireframes were designed using [Balsamiq](https://balsamiq.com/). They're accessible in the following links:
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+|    Desktop   |     Mobile   |
+|    :----:    |     :----:   |
+|[main page](mockups/desktop/file.png)|[main page](mockups/mobile/)|
+|[intro page](mockups/desktop/file.png)|[intro page](mockups/mobile/)|
+|[music page](mockups/desktop/file.pngg)|[music page](mockups/mobile/g)|
+|[bio page](mockups/desktop/file.pngpng)|[bio page](mockups/mobile/png)|
+|[gallery](mockups/desktop/file.pngpng)|[gallery](mockups/mobile/png)|
+|[footer](mockups/desktop/file.pngpng)|[footer](mockups/mobile/png)|
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+---
 
-### Features Left to Implement
-- Another feature idea
+## 2. Features
 
-## Technologies Used
+### 2.1. Existing features
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+**Main page** 
+- **Welcome / CTA **: welcomes the users and provides a small Call To Action to invite them to look at sections
+- **Navigation **: allows users to navigate the site in an easy and intuitive way.
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+The Navigation is made to be fixed at the top so users can jump to any section with the click on the icos.
+In tablet/desktop/large screens the icon's are also provided with text telling the users what section belongs to which icon
+The hamburger dropdown is viewable in all screens and also provided with text guiding the users
 
+**Intro page** 
 
-## Testing
-
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
-## Deployment
-
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
+- **circle profile image**: shows the user the identity of the artist
+- **introduction container**: a short introduction to the users
 
 
-## Credits
+**Music page** 
 
-### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- **3 soundcloud embedded audiotracks**: allows users to listen to individual tracks
+- **soundcloud embedded playlist**: allows users to check out the full soundcloud playlist.
 
-### Media
-- The photos used in this site were obtained from ...
+**Biography** 
 
-### Acknowledgements
+- **image of artist performing**: let the users see a cool photo of an perfomance from the artist
+- **biography**: tells users the story of how the artist came to be.
+This article is made to be collapsible and divided into three screens for better UX
 
-- I received inspiration for this project from X
+**Gallery** 
+
+- **Gallery**: allows the users to get to see pictures of the artist 
+
+
+**footer** 
+
+- **Contact form**: allows users to contact the artis.
+- **Events_**: allows users to see upcoming events
+- **Credits**: allows users to see the credits
+
+
+### 2.2. Features left to implement in the future
+
+- The form should be  submit the forms and send a comfirmation email.
+- Add a section with users feedback.
+- Allow to play and download music from the website
+---
+
+## 3. Technologies used
+
+- [HTML5](https://en.wikipedia.org/wiki/HTML5) - provides the content and structure for my website.
+- [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) - provides the styling.
+- [Bootstrap](https://getbootstrap.com/) - used to create the layout of the project.
+- [Balsamiq](https://balsamiq.com/) - used to create the project's wireframes.
+- [Gitpod](https://gitpod.io/) - used to develop the website.
+- [GitHub](https://github.com/) - used to host the project.
+- [Google Fonts](https://fonts.google.com/) - used to provide the fonts Josefin Slab for the main text, and Fredericka the Great for headers.
+- [Font Awesome](https://fontawesome.com/) - used the font awesome icons to style the information and the links in the footer, and also to make the Reservation section stand out a small bit.
+
+
+## 4. Testing
+
+
+---
+
+## 5. Deployment
+
+**To deploy the project**
+
+This project is hosted in GitHub Pages
+
+1. On the menu on the top of the project’s repository on GitHub select **Settings**.
+2. Scroll down to the GitHub **Pages** section.
+3. Inside that section, click on the drop-down menu under **Source** and select **Master Branch**.
+4. The page refreshes automatically and the website is now deployed.
+5. The link to the webpage is just in the GitHub **Pages** section down below.
+
+Only one branch has been used for this project.
+
+**To run the project locally**
+
+To clone this project from GitHub:
+
+1. Under the repository’s name, click **Clone or download**.
+2. In the **Clone with hTTPS** section, copy the given URL.
+3. In your IDE of choice, open **Git Bash**.
+4. Change the current working directory to the location where you want the cloned directory to be made.
+5. Type **git clone**, and then paste the URL copied from GitHub.
+6. Press **enter** and the local clone will be created.
+
+---
+
+## 6. Credits
+
+### 6.1. Content
+The content  is written by myself , as I am also the artist. Spell / grammar check by Ingrid Adriaans.
+
+
+
+### 6.2. Media
+
+
+### 6.1. Acknowledgments
+
