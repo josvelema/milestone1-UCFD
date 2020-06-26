@@ -1,28 +1,87 @@
 # Seldom Seen electronics
+
 ![sldmsn](readme/amiresponsive.png)
 
 As i am also a music producer , called Seldom Seen , i was in the need of a proper website where users can find more
 information about me , listen to my music and hopefully come visit my future perfomances.
 
-Visit the site in Github pages [here](https://josvelema.github.io/milestone1-UCFD/cd).
----
+## Visit the site in Github pages [here](https://josvelema.github.io/milestone1-UCFD/cd).
+
 ## 1. UX
 
 #### 1.2. User Stories
 
-- user story
+User story’s
+
+-          User#1
+
+
+As a fan of underground electronic music
+i want to find music of that genre
+so i can listen and download tracks.
+
+- Features for User#1
+
+Abiliaty to listen to music & soundcloud intergration
+Find out about SSE’s music & download/listen
+
+- Value for me
+  More listeners of my music
+
+-         User#2
+
+As an visitor of an SSE’s concert
+i want to look up more information about SSE
+so i can read more about his music and find out about upcoming events
+
+- Features for User#2
+
+Biography section
+event section with events in the past (image gallery with captions)
+and upcoming events in a calender
+
+- value for me 
+gain more fans and more visitors of my events
+
+ -         User#3
+
+As a label owner
+i want to contact SSE
+so i can invite him to release a track on my label.
+
+- Features for User#3
+
+Feedback ability in music section
+contact form
+
+- value for me
+ getting my music released
+
+  -        User#4
+
+As an electronic music artist
+i want to find fellow producers
+so i can exchange knowledge and collaborate
+
+- Features for User#4
+Linking the website on soundcloud and facebook
+contact/feedback form
+
+- value for me
+ make music with other producers
 
 #### 1.3. Wireframes
+
 The wireframes were designed using [Balsamiq](https://balsamiq.com/). They're accessible in the following links:
 
-|    Desktop   |     Mobile   |
-|    :----:    |     :----:   |
-|[main page](mockups/desktop/file.png)|[main page](mockups/mobile/)|
-|[intro page](mockups/desktop/file.png)|[intro page](mockups/mobile/)|
-|[music page](mockups/desktop/file.pngg)|[music page](mockups/mobile/g)|
-|[bio page](mockups/desktop/file.pngpng)|[bio page](mockups/mobile/png)|
-|[gallery](mockups/desktop/file.pngpng)|[gallery](mockups/mobile/png)|
-|[footer](mockups/desktop/file.pngpng)|[footer](mockups/mobile/png)|
+|                 Desktop                 |             Mobile             |
+| :-------------------------------------: | :----------------------------: |
+|  [main page](mockups/desktop/file.png)  |  [main page](mockups/mobile/)  |
+| [intro page](mockups/desktop/file.png)  | [intro page](mockups/mobile/)  |
+| [music page](mockups/desktop/file.pngg) | [music page](mockups/mobile/g) |
+| [bio page](mockups/desktop/file.pngpng) | [bio page](mockups/mobile/png) |
+| [gallery](mockups/desktop/file.pngpng)  | [gallery](mockups/mobile/png)  |
+|  [footer](mockups/desktop/file.pngpng)  |  [footer](mockups/mobile/png)  |
 
 ---
 
@@ -30,7 +89,8 @@ The wireframes were designed using [Balsamiq](https://balsamiq.com/). They're ac
 
 ### 2.1. Existing features
 
-**Main page** 
+**Main page**
+
 - **Welcome / CTA **: welcomes the users and provides a small Call To Action to invite them to look at sections
 - **Navigation **: allows users to navigate the site in an easy and intuitive way.
 
@@ -38,56 +98,52 @@ The Navigation is made to be fixed at the top so users can jump to any section w
 In tablet/desktop/large screens the icon's are also provided with text telling the users what section belongs to which icon
 The hamburger dropdown is viewable in all screens and also provided with text guiding the users
 
-**Intro page** 
+**Intro page**
 
 - **circle profile image**: shows the user the identity of the artist
 - **introduction container**: a short introduction to the users
 
-
-**Music page** 
+**Music page**
 
 - **3 soundcloud embedded audiotracks**: allows users to listen to individual tracks
 - **soundcloud embedded playlist**: allows users to check out the full soundcloud playlist.
 
-**Biography** 
+**Biography**
 
 - **image of artist performing**: let the users see a cool photo of an perfomance from the artist
 - **biography**: tells users the story of how the artist came to be.
-This article is made to be collapsible and divided into three screens for better UX
+  This article is made to be collapsible and divided into three screens for better UX
 
-**Gallery** 
+**Gallery**
 
-- **Gallery**: allows the users to get to see pictures of the artist 
+- **Gallery**: allows the users to get to see pictures of the artist
 
-
-**footer** 
+**footer**
 
 - **Contact form**: allows users to contact the artis.
-- **Events_**: allows users to see upcoming events
+- **Events\_**: allows users to see upcoming events
 - **Credits**: allows users to see the credits
-
 
 ### 2.2. Features left to implement in the future
 
-- The form should be  submit the forms and send a comfirmation email.
+- The form should be submit the forms and send a comfirmation email.
 - Add a section with users feedback.
 - Allow to play and download music from the website
+
 ---
 
 ## 3. Technologies used
 
-- [HTML5](https://en.wikipedia.org/wiki/HTML5) - provides the content and structure for my website.
+- [HTML5](https://en.wikipedia.org/wiki/HTML5) - provides the content and structure.
 - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) - provides the styling.
 - [Bootstrap](https://getbootstrap.com/) - used to create the layout of the project.
 - [Balsamiq](https://balsamiq.com/) - used to create the project's wireframes.
 - [Gitpod](https://gitpod.io/) - used to develop the website.
 - [GitHub](https://github.com/) - used to host the project.
-- [Google Fonts](https://fonts.google.com/) - used to provide the fonts Josefin Slab for the main text, and Fredericka the Great for headers.
-- [Font Awesome](https://fontawesome.com/) - used the font awesome icons to style the information and the links in the footer, and also to make the Reservation section stand out a small bit.
-
+- [Google Fonts](https://fonts.google.com/) - used to provide the fonts IBM plex Mono and Ubuntu to have a coder kind of feel to the letters.
+- [Font Awesome](https://fontawesome.com/) - used the font awesome icons in the navigation bar , dropdown and in the carousel.
 
 ## 4. Testing
-
 
 ---
 
@@ -121,12 +177,9 @@ To clone this project from GitHub:
 ## 6. Credits
 
 ### 6.1. Content
-The content  is written by myself , as I am also the artist. Spell / grammar check by Ingrid Adriaans.
 
-
+The content is written by myself , as I am also the artist. Spell / grammar check by Ingrid Adriaans.
 
 ### 6.2. Media
 
-
 ### 6.1. Acknowledgments
-
