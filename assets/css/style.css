@@ -1,5 +1,6 @@
 /* Seldom Seen electronic CSS all styles with rj- are custom styles */
 
+
 /* HTML elements */
 
 html {
@@ -12,6 +13,7 @@ body {
   font-size: 18px;
 }
 
+/* code snippet from Anna_ci from slack/code institute to inspect containers better */ 
 /*
 * {
   background: #000 !important;
@@ -19,6 +21,7 @@ body {
   outline: solid #f00 1px !important;
 }
 */
+
 
 a {
   color: #becafa;
@@ -177,7 +180,7 @@ nav,
   position: relative;
   padding: 2px;
   margin: 0 auto;
-  left: 0.5em;
+
 }
 
 div nav {
@@ -194,6 +197,7 @@ div nav {
   background-color: rgb(155, 75, 8);
   margin: 4px;
   height: 40px;
+  max-height: 80px;
 }
 
 #nav-tabContent {
@@ -259,7 +263,6 @@ div nav {
 /* container with scroll bar*/
 .rj-container2-wrap {
   width: 66vw;
-  min-width: 320px;
   max-width: 90vw;
   height: 60vh;
   max-height: 66vh;
@@ -281,8 +284,8 @@ div nav {
 /* welcome call to action container */
 .rj-welcome-wrap {
   position: relative;
-  top: 16rem;
-  min-width: 320px;
+  top: 12rem;
+  
   max-width: 80vw;
   height: 300px;
   border: 1px solid #0e243e;
@@ -714,7 +717,7 @@ button:focus {
 
 .rj-footer {
   width: 100%;
-  height: 330px;
+  height: 600px;
   background: #091727;
   background: -moz-linear-gradient(top, #091727 0%, #4e210e 45%, #9d5d3a 100%);
   background: -webkit-linear-gradient(
@@ -789,10 +792,10 @@ button:focus {
 
 #rj-img-square-out {
   position: relative;
-  width: 340px;
-  height: 400px;
+width: 270px;
+  height: 330px;
   padding: 8px;
-  left: 0.5em;
+  
   background: #9d5d3a;
   border: 1px solid #0e243e;
   border-radius: 6px;
@@ -808,10 +811,6 @@ button:focus {
   height: 100%;
   border: 1px solid #0e243e;
   border-radius: 6px;
-}
-#rj-img-square-in h3 {
-  position: relative;
-  top: 21rem;
 }
 
 /* <<<<<<<<<<<< section backgrounds >>>>>>>>>>>>>> */
