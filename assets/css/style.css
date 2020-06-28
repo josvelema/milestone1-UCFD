@@ -111,7 +111,8 @@ p {
   font-weight: 300;
   word-wrap: break-word;
   font-size: 18px;
-  margin: 5px 10px 5px 10px;
+  margin: 4px 6px 4px 6px;
+  
 }
 /* Bootstrap styles */
 .wrapper {
@@ -178,8 +179,10 @@ nav,
 
 #rj-nav-bio {
   position: relative;
-  padding: 2px;
-  margin: 0 auto;
+  padding: 2px 2px 2px 2px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  margin-left: -8px;
   left: 0.5rem;
   border: 1px solid #0e243e;
   border-radius: 6px;
@@ -209,7 +212,7 @@ nav,
   display: flex;
   font-family: "IBM Plex Mono", monospace;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   letter-spacing: 1px;
   color: #bacafa;
   border: 1px solid #a4abb8;
@@ -269,7 +272,10 @@ nav,
   box-shadow: 3px 3px 5px 1px #623a24;
   background: #9d5d3a;
   position: relative;
-  margin: 15px 10px 15px 10px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-left: 6px;
+  margin-right: 6px;
 }
 
 .rj-container2 {
@@ -439,13 +445,12 @@ nav,
   width: 100%;
 
   float: left;
-   scroll-snap-type: y proximity;
+  scroll-snap-type: y proximity;
 }
 
 .rj-section-container {
   margin: 20em 20em 2em 0;
   width: 100%;
- 
 }
 
 .rj-section {
@@ -503,9 +508,9 @@ nav,
 >>>>> image contain found on stackoverflow */
 
 .rj-carousel-container {
-    width: 100%;
+  width: 100%;
   max-width: 90vw;
-  
+
   border: 1px solid #0e243e;
   border-radius: 6px;
   -webkit-box-shadow: 3px 3px 5px 1px #623a24;
@@ -514,7 +519,7 @@ nav,
   position: relative;
   padding: 15px 10px 15px 10px;
   margin: 15px 10px 15px 10px;
- 
+
   font-size: 15px;
 }
 
@@ -524,7 +529,7 @@ nav,
   top: 0;
   left: 0;
   width: 100%;
- 
+
   object-fit: contain;
   overflow: hidden;
   align-items: start;
@@ -804,7 +809,9 @@ button:focus {
   background: #9d5d3a;
   border: 1px solid #0e243e;
   border-radius: 6px;
-  margin: 8px 4px;
+  margin-top: 6px;
+  margin-bottom: 4px;
+  margin-left: -8px;
   -webkit-box-shadow: 3px 3px 5px 1px #623a24;
   box-shadow: 3px 3px 5px 1px #623a24;
   background: #9d5d3a;
@@ -878,7 +885,23 @@ button:focus {
 
 /* extra small devices 'portrait mode' */
 
-@media (max-width: 575.98px) {
+@media (max-width: 567.98px) {
+  h1 {
+    font-size: 1.6rem;
+    line-height: 2.3rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+  blockquote {
+    font-size: 16px;
+  }
+
+  small {
+    display: none;
+  }
+
   .rj-welcome-wrap {
     min-width: 80vw !important;
     top: 9rem;
@@ -900,6 +923,16 @@ button:focus {
   #rj-img-square-in {
     background-position: top;
   }
+  .rj-no-gutter {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 0;
+    margin-left: 0;
+  }
+.rj-events-text {
+
+    height: 100%;
+}
   .rj-footer {
     height: 600px;
   }
