@@ -439,11 +439,13 @@ nav,
   width: 100%;
 
   float: left;
+   scroll-snap-type: y proximity;
 }
 
 .rj-section-container {
   margin: 20em 20em 2em 0;
   width: 100%;
+ 
 }
 
 .rj-section {
@@ -501,9 +503,9 @@ nav,
 >>>>> image contain found on stackoverflow */
 
 .rj-carousel-container {
-  max-width: 80%;
-  min-height: 70%;
-
+    width: 100%;
+  max-width: 90vw;
+  
   border: 1px solid #0e243e;
   border-radius: 6px;
   -webkit-box-shadow: 3px 3px 5px 1px #623a24;
@@ -512,18 +514,17 @@ nav,
   position: relative;
   padding: 15px 10px 15px 10px;
   margin: 15px 10px 15px 10px;
-  object-fit: contain;
+ 
   font-size: 15px;
 }
 
 .carousel .carousel-inner img {
   display: flex;
   position: relative;
-
   top: 0;
   left: 0;
   width: 100%;
-  max-height: 90%;
+ 
   object-fit: contain;
   overflow: hidden;
   align-items: start;
@@ -718,7 +719,6 @@ button:focus {
 
 .rj-footer {
   width: 100%;
-
   background: #091727;
   background: -moz-linear-gradient(top, #091727 0%, #4e210e 45%, #9d5d3a 100%);
   background: -webkit-linear-gradient(
@@ -728,6 +728,8 @@ button:focus {
     #9d5d3a 100%
   );
   background: linear-gradient(to bottom, #091727 0%, #4e210e 45%, #9d5d3a 100%);
+  padding-bottom: 8px;
+  scroll-snap-align: start;
 }
 
 .rj-footer-text {
@@ -755,6 +757,7 @@ button:focus {
   overflow: hidden;
   padding: 0px;
   margin: 0 auto;
+  scroll-snap-align: start;
 }
 
 #intro {
@@ -767,6 +770,7 @@ button:focus {
     #929eac 100%
   );
   background: linear-gradient(to bottom, #c4cbd3 0%, #acb2b9 40%, #929eac 100%);
+  scroll-snap-align: start;
 }
 
 #rj-img-circle-out {
@@ -826,6 +830,7 @@ button:focus {
     #657586 100%
   );
   background: linear-gradient(to bottom, #929eac 0%, #808a97 40%, #657586 100%);
+  scroll-snap-align: start;
 }
 
 #about {
@@ -838,6 +843,7 @@ button:focus {
     #304051 100%
   );
   background: linear-gradient(to bottom, #657586 0%, #586675 40%, #304051 100%);
+  scroll-snap-align: start;
 }
 
 #gallery {
@@ -850,6 +856,7 @@ button:focus {
     #102947 100%
   );
   background: linear-gradient(to bottom, #304051 0%, #2a3847 40%, #102947 100%);
+  scroll-snap-align: start;
 }
 
 #events {
@@ -862,6 +869,7 @@ button:focus {
     #091727 100%
   );
   background: linear-gradient(to bottom, #102947 0%, #0e243e 40%, #091727 100%);
+  scroll-snap-align: start;
 }
 
 /* end */
@@ -883,7 +891,7 @@ button:focus {
 
   #rj-img-circle-out {
     width: 150px;
-    height: 150px ;
+    height: 150px;
   }
   #rj-img-square-out {
     width: 280px;
@@ -914,13 +922,13 @@ button:focus {
 
   #rj-img-circle-out {
     width: 150px;
-    height: 150px ;
+    height: 150px;
   }
   #rj-img-square-out {
     width: 280px;
     height: 230px;
   }
-  
+
   .rj-footer {
     height: 380x;
   }
@@ -931,14 +939,14 @@ button:focus {
 
   /* Medium devices tablets, 768px and up  */
   @media (min-width: 768px) and (max-width: 991.98px) {
-  #rj-img-circle-out {
-    width: 150px;
-    height: 150px;
-  }
-  #rj-img-square-out {
-    width: 329px;
-    height: 600px;
-  }
+    #rj-img-circle-out {
+      width: 150px;
+      height: 150px;
+    }
+    #rj-img-square-out {
+      width: 329px;
+      height: 600px;
+    }
     .rj-footer {
       height: 300px;
     }
@@ -959,7 +967,7 @@ button:focus {
     }
   }
 
-/* XXL large */
+  /* XXL large */
   @media (min-width: 1200px) {
     .rj-footer {
       height: 300px;
