@@ -76,12 +76,12 @@ The wireframes were designed using [Balsamiq](https://balsamiq.com/). They're ac
 
 |                 Desktop                 |             Mobile             |
 | :-------------------------------------: | :----------------------------: |
-|  [main page](mockups/desktop/file.png)  |  [main page](mockups/mobile/)  |
-| [intro page](mockups/desktop/file.png)  | [intro page](mockups/mobile/)  |
-| [music page](mockups/desktop/file.pngg) | [music page](mockups/mobile/g) |
-| [bio page](mockups/desktop/file.pngpng) | [bio page](mockups/mobile/png) |
-| [gallery](mockups/desktop/file.pngpng)  | [gallery](mockups/mobile/png)  |
-|  [footer](mockups/desktop/file.pngpng)  |  [footer](mockups/mobile/png)  |
+|  [main page](mockups/desktop/mainDesktop.pdf)  |  [main page](mockups/mobile/mainPhone.pdf)  |
+| [intro page](mockups/desktop/introDesktop.pdf)  | [intro page](mockups/mobile/introPhone.pdf)  |
+| [music page](mockups/desktop/musicDesktop.pdf) | [music page](mockups/mobile/musicPhone.pdf) |
+| [bio page](mockups/desktop/bioDesktop.pdf) | [bio page](mockups/mobile/bioPhone.pdf) |
+| [gallery](mockups/desktop/galleryDesktop.pdf)  | [gallery](mockups/mobile/galleryPhone.pdf)  |
+|  [footer](mockups/desktop/footerDesktop.pdf)  |  [footer](mockups/mobile/footerPhone.pdf)  |
 
 ---
 
