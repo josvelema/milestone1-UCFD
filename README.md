@@ -13,66 +13,75 @@ information about me , listen to my music and hopefully come visit my future per
 
 User story’s
 
--          User#1
+#####         User#1
 
 
-As a fan of underground electronic music
-i want to find music of that genre
-so i can listen and download tracks.
+>As a fan of underground electronic music
+>i want to find music of that genre
+>so i can listen and download tracks.
 
 - Features for User#1
 
-Abiliaty to listen to music & soundcloud intergration
-Find out about SSE’s music & download/listen
+>Abiliaty to listen to music & soundcloud intergration
+
+>Find out about SSE’s music & download/listen
 
 - Value for me
-  More listeners of my music
 
--         User#2
+>  More listeners of my music
+---
+#####        User#2
 
-As an visitor of an SSE’s concert
-i want to look up more information about SSE
-so i can read more about his music and find out about upcoming events
+>As an visitor of an SSE’s concert
+>i want to look up more information about SSE
+>so i can read more about his music and find out about upcoming events
 
 - Features for User#2
 
-Biography section
-event section with events in the past (image gallery with captions)
-and upcoming events in a calender
+>Biography section
+
+>event section with events in the past (image gallery with captions)
+>and upcoming events in a calender
 
 - value for me 
-gain more fans and more visitors of my events
 
- -         User#3
+>gain more fans and more visitors of my events
+---
+ #####        User#3
 
-As a label owner
-i want to contact SSE
-so i can invite him to release a track on my label.
+>As a label owner
+>i want to contact SSE
+>so i can invite him to release a track on my label.
 
 - Features for User#3
 
-Feedback ability in music section
-contact form
+>Feedback ability in music section
+
+>contact form
 
 - value for me
- getting my music released
 
-  -        User#4
+> getting my music released
+---
+#####       User#4
 
-As an electronic music artist
-i want to find fellow producers
-so i can exchange knowledge and collaborate
+>As an electronic music artist
+>i want to find fellow producers
+>so i can exchange knowledge and collaborate
 
 - Features for User#4
-Linking the website on soundcloud and facebook
-contact/feedback form
+
+>Linking the website on soundcloud and facebook
+
+>contact/feedback form
 
 - value for me
- make music with other producers
 
+> make music with other producers
+---
 #### 1.3. Wireframes
 
-The wireframes were designed using [Balsamiq](https://balsamiq.com/). They're accessible in the following links:
+The wireframes were designed using [draw.io](https://draw.io/). They're accessible in the following links:
 
 |                 Desktop                 |             Mobile             |
 | :-------------------------------------: | :----------------------------: |
@@ -136,12 +145,13 @@ The hamburger dropdown is viewable in all screens and also provided with text gu
 
 - [HTML5](https://en.wikipedia.org/wiki/HTML5) - provides the content and structure.
 - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) - provides the styling.
-- [Bootstrap](https://getbootstrap.com/) - used to create the layout of the project.
-- [Balsamiq](https://balsamiq.com/) - used to create the project's wireframes.
+- [Bootstrap](https://getbootstrap.com/) - used to create the layout of the project , navigation and carousel.
+- [draw.io](https://draw.io/) - used to create the project's wireframes.
 - [Gitpod](https://gitpod.io/) - used to develop the website.
 - [GitHub](https://github.com/) - used to host the project.
 - [Google Fonts](https://fonts.google.com/) - used to provide the fonts IBM plex Mono and Ubuntu to have a coder kind of feel to the letters.
 - [Font Awesome](https://fontawesome.com/) - used the font awesome icons in the navigation bar , dropdown and in the carousel.
+
 
 ## 4. Testing
 
@@ -175,11 +185,19 @@ To clone this project from GitHub:
 ---
 
 ## 6. Credits
+- [HTML/CSS Cheatsheet] (https://htmlcheatsheet.com/css/) - used to generate the background gradient , color picking and font-shadow
+- [W3C schools] (https://www.w3schools.com/) - used for reference
+- [Soundcloud embed] (https://www.soundcloud.com) - used for embed music iframes
+- [Stackoverflow] (https://stackoverflow.com/) - used to find code solutions
+
 
 ### 6.1. Content
 
-The content is written by myself , as I am also the artist. Spell / grammar check by Ingrid Adriaans.
+The content is written by myself , as I am also the artist. Spell / grammar check by [Ingrid Adriaans](https://nl.linkedin.com/in/ieadriaans).
+
 
 ### 6.2. Media
+
+
 
 ### 6.1. Acknowledgments
