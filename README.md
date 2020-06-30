@@ -159,6 +159,14 @@ The hamburger dropdown is viewable in all screens and also provided with text gu
 - [Google Fonts](https://fonts.google.com/) - used to provide the fonts IBM plex Mono and Ubuntu to have a coder kind of feel to the letters.
 - [Font Awesome](https://fontawesome.com/) - used the font awesome icons in the navigation bar , dropdown and in the carousel.
 
+### stackoverflow solutions
+- Customized the bootstrap carousel with captions under the images and custom prev/next arrow
+[solution](https://stackoverflow.com/questions/30125830/how-to-move-bootstrap-3-carousel-caption-below-images)
+
+- Customized scroll bar inside containers 
+[solution](https://stackoverflow.com/questions/9251354/css-customized-scroll-bar-in-div)
+
+- 
 
 ## 4. Testing
 
@@ -220,10 +228,10 @@ To clone this project from GitHub:
 ---
 
 ## 6. Credits
-- [HTML/CSS Cheatsheet] (https://htmlcheatsheet.com/css/) - used to generate the background gradient , color picking and font-shadow
-- [W3C schools] (https://www.w3schools.com/) - used for reference
-- [Soundcloud embed] (https://www.soundcloud.com) - used for embed music iframes
-- [Stackoverflow] (https://stackoverflow.com/) - used to find code solutions
+- [HTML/CSS Cheatsheet](https://htmlcheatsheet.com/css/) - used to generate the background gradient , color picking and font-shadow
+- [W3C schools](https://www.w3schools.com/) - used for reference
+- [Soundcloud embed](https://www.soundcloud.com) - used for embed music iframes
+- [Stackoverflow](https://stackoverflow.com/) - used to find code solutions
 
 
 ### 6.1. Content
