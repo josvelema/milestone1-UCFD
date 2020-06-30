@@ -164,6 +164,32 @@ The hamburger dropdown is viewable in all screens and also provided with text gu
 
 - W3C CSS Validator came back with no errors
 - W3C HTML Validator came back with no errors
+
+>As a fan of underground electronic music
+>i want to find music of that genre
+>so i can listen and download tracks.
+
+- Users can go the music section by going to the dropdown menu in the fixed navbar. (all devices)
+- Users can also go to music section by pressing the quicklink-icons in the navbar (tablet and desktop)
+
+>As an visitor of an SSE’s concert
+>i want to look up more information about SSE
+>so i can read more about his music and find out about upcoming events
+
+- Users can can go to the intro,music,biograpy and events section in the dropdown menu in the fixed navbar. (all devices)
+- Users can also use the quicklink-icons in the navbar (tablet and desktop).
+
+>As a label owner
+>i want to contact SSE
+>so i can invite him to release a track on my label.
+
+>As an electronic music artist
+>i want to find fellow producers
+>so i can exchange knowledge and collaborate
+
+- Users can go the contact by clicking the the 'CONTACT!' button on the main page or by selecting it in the dropdown-menu
+
+
 ---
 
 ## 5. Deployment
@@ -207,6 +233,10 @@ The content is written by myself , as I am also the artist. Spell / grammar chec
 
 ### 6.2. Media
 
+Photo/image credits to Elyse Haas 'Streetrave ADEV' , Andrea Milana , for the hero image and Jette Bogaerts for the profile image.
+Used with permission.
 
 
 ### 6.1. Acknowledgments
+ 
+The design , color-scheme's and are inspired by the interface from the [korg electribe EMX1 groovebox](https://en.wikipedia.org/wiki/Electribe). 

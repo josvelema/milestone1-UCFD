@@ -509,6 +509,7 @@ nav,
   position: relative;
   overflow-y: scroll;
 }
+
 .rj-music-iframe-small {
   position: relative;
   width: 100%;
@@ -517,8 +518,7 @@ nav,
   border-radius: 6px;
 }
 
-/* container for carousel and custom bootstrap styling to be responsive 
->>>>> image contain found on stackoverflow */
+/* container for carousel and custom bootstrap styling */
 
 .rj-carousel-container {
   width: 100%;
@@ -645,6 +645,8 @@ nav,
   left: 20px;
 }
 
+/* event en form sections */
+
 .rj-section-form {
   background: url("../img/korgvert.jpg") no-repeat;
   height: 600px;
@@ -730,8 +732,8 @@ button:focus {
 }
 .rj-form-header {
   position: relative;
-  padding-top: -3rem;
   line-height: 4rem;
+  text-align:center;
 }
 /*  footer section for credits / disclaimer */
 
@@ -768,7 +770,7 @@ button:focus {
   color: #faeebe;
 }
 
-/* rj-main-in contains hero image used with permission */
+/* rj-main-in contain  hero image used with permission */
 #rj-main-in {
   background: url("../img/emxheroimage2.jpg") no-repeat center bottom;
   background-size: cover;
