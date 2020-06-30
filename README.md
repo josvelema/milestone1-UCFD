@@ -107,8 +107,8 @@ The wireframes were designed using [draw.io](https://draw.io/). They're accessib
 
 **Main page**
 
-- **Welcome / CTA **: welcomes the users and provides a small Call To Action to invite them to look at sections
-- **Navigation **: allows users to navigate the site in an easy and intuitive way.
+- **Welcome / CTA**: welcomes the users and provides a small Call To Action to invite them to look at sections
+- **Navigation**: allows users to navigate the site in an easy and intuitive way.
 
 The Navigation is made to be fixed at the top so users can jump to any section with the click on the icos.
 In tablet/desktop/large screens the icon's are also provided with text telling the users what section belongs to which icon
@@ -175,9 +175,10 @@ The hamburger dropdown is viewable in all screens and also provided with text gu
 - W3C CSS Validator came back with no errors
 - W3C HTML Validator came back with no errors
 
-- code snippet from Anna_ci from slack/code institute to inspect containers better 
+- CSS code snippet from Anna_ci from slack/code institute to inspect containers better 
 
-``` {
+``` 
+{
   background: #000 !important;
   color: #0f0 !important;
   outline: solid #f00 1px !important;
@@ -259,4 +260,4 @@ Used with permission.
 
 ### 6.1. Acknowledgments
  
-The design , color-scheme's and are inspired by the interface from the [korg electribe EMX1 groovebox](https://en.wikipedia.org/wiki/Electribe). 
+The design and color-scheme's are inspired by the interface from the [korg electribe EMX1 groovebox](https://en.wikipedia.org/wiki/Electribe). 
