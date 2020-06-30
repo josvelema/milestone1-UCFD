@@ -14,14 +14,6 @@ body {
   font-size: 18px;
 }
 
-/* code snippet from Anna_ci from slack/code institute to inspect containers better */
-/*
-* {
-  background: #000 !important;
-  color: #0f0 !important;
-  outline: solid #f00 1px !important;
-}
-*/
 
 a {
   color: #becafa;

@@ -158,6 +158,7 @@ The hamburger dropdown is viewable in all screens and also provided with text gu
 - [GitHub](https://github.com/) - used to host the project.
 - [Google Fonts](https://fonts.google.com/) - used to provide the fonts IBM plex Mono and Ubuntu to have a coder kind of feel to the letters.
 - [Font Awesome](https://fontawesome.com/) - used the font awesome icons in the navigation bar , dropdown and in the carousel.
+- [AmIresponsive](http://ami.responsivedesign.is/) - used to test responsivenes
 
 ### stackoverflow solutions
 - Customized the bootstrap carousel with captions under the images and custom prev/next arrow
@@ -166,12 +167,23 @@ The hamburger dropdown is viewable in all screens and also provided with text gu
 - Customized scroll bar inside containers 
 [solution](https://stackoverflow.com/questions/9251354/css-customized-scroll-bar-in-div)
 
-- 
+- HTML5 full form validation for email
+[solution](https://stackoverflow.com/questions/19605773/html5-email-validation)
 
 ## 4. Testing
 
 - W3C CSS Validator came back with no errors
 - W3C HTML Validator came back with no errors
+
+- code snippet from Anna_ci from slack/code institute to inspect containers better 
+
+``` {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+}
+```
+
 
 >As a fan of underground electronic music
 >i want to find music of that genre
