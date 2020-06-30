@@ -1,350 +1,282 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Seldom Seen Electronics</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-      crossorigin="anonymous"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200;300;400;500;600&family=Turret+Road:wght@200;300;400;500;700&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-  </head>
 
-  <body>
- <!-- header section / navigation -->
-    <header class="fixed-top">
-      <nav class="navbar navbar-expand navbar-dark">
-        <span class="rj-icon navbar-nav">
+<head>
+	<meta charset="UTF-8" />
+	<title>Seldom Seen Electronics</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+		integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+	<link
+		href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200;300;400;500;600&family=Turret+Road:wght@200;300;400;500;700&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+		rel="stylesheet" />
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+</head>
+
+<body>
+	<!-- header section / navigation -->
+	<header class="fixed-top">
+		<nav class="navbar navbar-expand navbar-dark">
+			<span class="rj-icon navbar-nav">
           <a href="#rj-main-in">
             <i class="fa fa-home"></i>
 
             <span class="sr-only">Back to Mainpage(top)</span>
-          </a>
-        </span>
+			</a>
+			</span>
 
-        <!-- dropdown menu visible on al viewports -->
-        <ul class="navbar-nav">
-          <li class="nav-item dropdown active">
-            <a class="nav-link dropdown-toggle"
-              href="#"
-              id="rj-nav-drop"
-              role="button"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              <i class="fas fa-bars rj-hamburger"></i>
-            </a>
-            <div class="dropdown-menu" aria-labelledby="rj-nav-drop">
-              <a class="dropdown-item" href="#intro"
-                ><i class="fas fa-question"> </i> Introduction
-              </a>
-              <a class="dropdown-item" href="#music"
-                ><i class="fas fa-headphones-alt"></i> Music
-              </a>
-              <a class="dropdown-item" href="#about"
-                ><i class="fas fa-address-card"></i> Biograpy
-              </a>
-              <a class="dropdown-item" href="#gallery"
-                ><i class="fas fa-eye"> </i> Gallery
-              </a>
-              <a class="dropdown-item" href="#events"
-                ><i class="far fa-calendar-alt"></i>Events</a
-              >
+			<!-- dropdown menu visible on al viewports -->
+			<ul class="navbar-nav">
+				<li class="nav-item dropdown active">
+					<a class="nav-link dropdown-toggle" href="#" id="rj-nav-drop" role="button" data-toggle="dropdown"
+						aria-haspopup="true" aria-expanded="false">
+						<i class="fas fa-bars rj-hamburger"></i>
+					</a>
+					<div class="dropdown-menu" aria-labelledby="rj-nav-drop">
+						<a class="dropdown-item" href="#intro"><i class="fas fa-question"> </i> Introduction
+						</a>
+						<a class="dropdown-item" href="#music"><i class="fas fa-headphones-alt"></i> Music
+						</a>
+						<a class="dropdown-item" href="#about"><i class="fas fa-address-card"></i> Biograpy
+						</a>
+						<a class="dropdown-item" href="#gallery"><i class="fas fa-eye"> </i> Gallery
+						</a>
+						<a class="dropdown-item" href="#events"><i class="far fa-calendar-alt"></i>Events</a>
 
-              <a class="dropdown-item" href="#contact"
-                ><i class="far fa-comment-dots"></i>Contact</a
-              >
-            </div>
-          </li>
-        </ul>
-        <!--  nav with icons -->
-        <div class="rj-icon-container d-none d-sm-block">
-          <ul class="navbar-nav">
-            <li class="rj-icon nav-item">
-              <a href="#intro">
-                <i class="fas fa-question"></i>
-                <span class="sr-only">Introducing Seldom Seen</span>
-              </a>
-            </li>
-            <div class="d-flex align-items-center">
-              <span class="d-none d-md-block"><a
-               href="#intro"><strong>Intro</strong></a></span>
-            </div>
-            <li class="rj-icon nav-item">
-              <a href="#music">
-                <i class="fas fa-headphones-alt"></i>
-                <span class="sr-only">Go to Music section</span>
-              </a>
-            </li>
-            <div class="d-flex align-items-center">
-              <span class="d-none d-md-block"
-                ><a href="#music"><strong>Music</strong></a></span
-              >
-            </div>
-            <li class="rj-icon nav-item">
-              <a href="#about">
-                <i class="far fa-address-card"></i>
-                <span class="sr-only">Go to about section</span>
-              </a>
-            </li>
-            <div class="d-flex align-items-center">
-              <span class="d-none d-md-block"
-                ><a href="#about"><strong>Bio</strong></a></span
-              >
-            </div>
-            <li class="rj-icon nav-item">
-              <a href="#gallery">
-                <i class="fas fa-eye"></i>
-                <span class="sr-only">Go to Gallery section</span>
-              </a>
-            </li>
-            <div class="d-flex align-items-center">
-              <span class="d-none d-md-block"
-                ><a href="#gallery"><strong>Gallery</strong></a></span
-              >
-            </div>
-          </ul>
-        </div>
-      </nav>
-    </header>
-    <!-- end of nav -->
-    <!-- Main container -->
+						<a class="dropdown-item" href="#contact"><i class="far fa-comment-dots"></i>Contact</a>
+					</div>
+				</li>
+			</ul>
+			<!--  nav with icons -->
+			<div class="rj-icon-container d-none d-sm-block">
+				<ul class="navbar-nav d-flex align-items-center">
+					<li class="rj-icon nav-item">
+						<a href="#intro">
+							<i class="fas fa-question"></i>
+							<span class="sr-only">Introducing Seldom Seen</span>
+						</a>
+					</li>
+					<li>
 
-    <main class="container-fluid">
-      <!-- Top page -->
-      <div class="rj-generic-wrapper">
-        <div class="rj-section" id="rj-main-in">
-          <section class="rj-generic-wrapper">
-            <div class="d-flex row align-items-center justify-content-center">
-              <div class="col-6">
-                <header class="rj-article-header">
-                  <hr class="block-divider" />
-                </header>
-              </div>
-            </div>
-            <div class="d-flex row align-items-center justify-content-center">
-              <article class="col-4 rj-welcome-wrap">
-                <div class="rj-welcome">
-                  <div class="rj-content-wrap">
-                    <div class="rj-content-box">
-                      <div class="rj-welcome-text">
-                        <hr class="block-divider" />
-                        <h2 class="rj-article-header">Seldom Seen</h2>
-                        <p></p>
-                        <hr class="block-divider" />
+						<a href="#intro" class="d-none d-md-block">
+							Intro
+						</a>
+					</li>
 
-                        <p>So who is SLDMSN?</p>
-                        <blockquote>
-                          You can find out in my
-                          <a href="#intro">introduction</a> , listen to my
-                          <a href="#music">music</a> or read my
-                          <a href="#about">biography.</a>
-                        </blockquote>
+					<li class="rj-icon nav-item">
+						<a href="#music">
+							<i class="fas fa-headphones-alt"></i>
+							<span class="sr-only">Go to Music section</span>
+						</a>
+					</li>
+					<li>
+						<a href="#music" class="d-none d-md-block">
+							Music</a>
+					</li>
+					<li class="rj-icon nav-item">
+						<a href="#about">
+							<i class="far fa-address-card"></i>
+							<span class="sr-only">Go to about section</span>
+						</a>
+					</li>
+					<li>
+						<a href="#about" class="d-none d-md-block">Bio</a>
+					</li>
+					<li class="rj-icon nav-item">
+						<a href="#gallery">
+							<i class="fas fa-eye"></i>
+							<span class="sr-only">Go to Gallery section</span>
+						</a>
+					</li>
+					<li>
+						<a href="#gallery" class="d-none d-md-block">Gallery</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<!-- end of nav -->
+	<!-- Main container -->
 
-                        <hr class="block-divider" />
-                        <p class="lead text-center">Questions / Feedback ?</p>
+	<main class="container-fluid">
+		<!-- Top page -->
+		<div class="rj-generic-wrapper">
+			<div class="rj-section" id="rj-main-in">
+				<section class="rj-generic-wrapper">
+					<div class="d-flex row align-items-center justify-content-center">
+						<div class="col-6">
+							<header class="rj-article-header">
+								<hr class="block-divider" />
+							</header>
+						</div>
+					</div>
+					<div class="d-flex row align-items-center justify-content-center">
+						<article class="col-4 rj-welcome-wrap">
+							<div class="rj-welcome">
+								<div class="rj-content-wrap">
+									<div class="rj-welcome-text">
+											<hr class="block-divider" />
+											<h2 class="rj-article-header">Seldom Seen</h2>
+											<p></p>
+											<hr class="block-divider" />
 
-                        <small>Contact SLDMSN by filling in the form</small>
-                        <div class="d-flex justify-content-center">
-                          <a class="btn rj-button" href="#contact">CONTACT</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </article>
-            </div>
-          </section>
-        </div>
-      </div>
-      <!-- end of top page-->
+											<p>So who is SLDMSN?</p>
+											<blockquote>
+												You can find out in my
+												<a href="#intro">introduction</a> , listen to my
+												<a href="#music">music</a> or read my
+												<a href="#about">biography.</a>
+											</blockquote>
 
-      <!-- Introduction section -->
-      <div class="rj-generic-wrapper">
-        <div class="rj-section" id="intro">
-          <section class="rj-generic-wrapper">
-            <div class="row">
-              <div class="col-12">
-                <header class="rj-article-header">
-                  <h1>Introduction</h1>
-                </header>
-              </div>
-            </div>
-            <div class="d-flex row align-items-center justify-content-center">
-              <div>
-                <article class="col-12 col-md-4">
-                  <div id="rj-img-circle-out">
-                    <div id="rj-img-circle-in"></div>
-                  </div>
-                </article>
-              </div>
-              <article class="col-12 col-md-8 rj-container2-wrap">
-                <div class="rj-container2">
-                  <div class="rj-content-wrap">
-                    <div class="rj-content-box">
-                      <div class="rj-content-text">
-                        <h4>
-                          Seldom Seen - The Artist Formely Known As Tosti
-                        </h4>
-                        <blockquote>
-                          Since 2018 i changed my name to Seldom Seen because i
-                          didn't find the name Tosti not fitting anymore to the
-                          music i'm making.
-                        </blockquote>
-                        <blockquote>
-                          The name Tosti rimes with Josti , which is a nickname
-                          i got given a long time ago. A Josti , in the
-                          netherlands , is a member of an ensemble of people who
-                          are mentally challenged called the Josti Band.
-                        </blockquote>
-                        <blockquote>
-                          And a Tosti in dutch is a grilled cheese sandwich! So
-                          yes that name was fun for a while , but i figured i
-                          needed a less offensive and more mysterious name.
-                        </blockquote>
-                        <blockquote>
-                          And so i renamed myself to Seldom Seen , because you
-                          don't often see a person like me , or whatever.. it's
-                          just a name! And it's not about ego , remember?!
-                        </blockquote>
-                        <strong style="text-center">
+											<hr class="block-divider" />
+											<p class="lead text-center">Questions / Feedback ?</p>
+
+											<small>Contact SLDMSN by filling in the form</small>
+											<div class="d-flex justify-content-center">
+												<a class="btn rj-button" href="#contact">CONTACT</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+						</article>
+					</div>
+				</section>
+			</div>
+		</div>
+		<!-- end of top page-->
+
+		<!-- Introduction section -->
+		<div class="rj-generic-wrapper">
+			<div class="rj-section" id="intro">
+				<section class="rj-generic-wrapper">
+					<div class="row">
+						<div class="col-12">
+							<header class="rj-article-header">
+								<h1>Introduction</h1>
+							</header>
+						</div>
+					</div>
+					<div class="d-flex row align-items-center justify-content-center">
+						<div>
+							<article class="col-12 col-md-4">
+								<div id="rj-img-circle-out">
+									<div id="rj-img-circle-in"></div>
+								</div>
+							</article>
+						</div>
+						<article class="col-12 col-md-8 rj-container2-wrap">
+							<div class="rj-container2">
+								<div class="rj-content-wrap">
+									
+										<div class="rj-content-text">
+											<h4>
+												Seldom Seen - The Artist Formely Known As Tosti
+											</h4>
+											<blockquote>
+												Since 2018 i changed my name to Seldom Seen because i
+												didn't find the name Tosti not fitting anymore to the
+												music i'm making.
+											</blockquote>
+											<blockquote>
+												The name Tosti rimes with Josti , which is a nickname
+												i got given a long time ago. A Josti , in the
+												netherlands , is a member of an ensemble of people who
+												are mentally challenged called the Josti Band.
+											</blockquote>
+											<blockquote>
+												And a Tosti in dutch is a grilled cheese sandwich! So
+												yes that name was fun for a while , but i figured i
+												needed a less offensive and more mysterious name.
+											</blockquote>
+											<blockquote>
+												And so i renamed myself to Seldom Seen , because you
+												don't often see a person like me , or whatever.. it's
+												just a name! And it's not about ego , remember?!
+											</blockquote>
+											<strong>
                           Exact! , it's about the music!
                         </strong>
-                      </div>
-                      <div class="d-flex justify-content-center">
-                        <a style="btn rj-button" href="#music">Music</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </article>
-            </div>
-          </section>
-        </div>
-      </div>
-      <!-- end of introduction -->
+										</div>
+									</div>
+								</div>
+							
+						</article>
+					</div>
+				</section>
+			</div>
+		</div>
+		<!-- end of introduction -->
 
-      <!-- music section -->
+		<!-- music section -->
 
-      <div class="generic-wrapper">
-        <div class="rj-section" id="music">
-          <section class="rj-generic-wrapper">
-            <div class="d-flex row align-items-center justify-content-center">
-              <div class="col-12">
-                <header class="rj-section-header">
-                  <h1>Music <a href="http://www.soundcloud.com/jotosti" target="_blank"><i class="fab fa-soundcloud"></i></a>
-                  
-              <a href="#contact"
-                ><i class="far fa-comment-dots"></i></a>
-                  </h1>
-             
-                </header>
-              </div>
-            </div>
-            <div class="d-flex row justify-content-center align-items-center">
-              <article class="col-12 col-lg-4">
-                <div class="rj-music-container">
-                  <div class="rj-container-wrapper">
-                    <div class="rj-content-box">
-                      <div class="rj-content-text">
-                        <h3>Rauwdouwer</h3>
-                      </div>
-                      <div>
-                        <iframe
-                          width="100%"
-                          height="130px"
-                          scrolling="no"
-                          frameborder="no"
-                          allow="autoplay"
-                          src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/5390898&color=%23a2a2a2&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
-                        ></iframe>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </article>
-              <article class="col-12 col-lg-4">
-                <div class="rj-music-container">
-                  <div class="rj-container-wrapper">
-                    <div class="rj-content-box">
-                      <div class="rj-content-text">
-                        <h3>Dauwrauwer</h3>
-                      </div>
-                      <div>
-                        <iframe
-                          width="100%"
-                          height="130px"
-                          scrolling="no"
-                          frameborder="no"
-                          allow="autoplay"
-                          src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/5390528&color=%23a2a2a2&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
-                        ></iframe>
-                        <div
-                          style="
-                            font-size: 10px;
-                            color: #cccccc;
-                            line-break: anywhere;
-                            word-break: normal;
-                            overflow: hidden;
-                            white-space: nowrap;
-                            text-overflow: ellipsis;
-                            font-family: Interstate, Lucida Grande,
-                              Lucida Sans Unicode, Lucida Sans, Garuda, Verdana,
-                              Tahoma, sans-serif;
-                            font-weight: 100;
-                          "
-                        ></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </article>
-              <article class="col-12 col-lg-4">
-                <div class="rj-music-container">
-                  <div class="rj-container-wrapper">
-                    <div class="rj-content-box">
-                      <div class="rj-content-text">
-                        <h3>Koek&Tosti live</h3>
-                        <div>
-                          <div>
-                            <iframe
-                              width="100%"
-                              height="130px"
-                              scrolling="no"
-                              frameborder="no"
-                              allow="autoplay"
-                              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/23080680&color=%23a2a2a2&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
-                            ></iframe>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </article>
-            </div>
-            <div class="container-fluid d-none d-sm-block">
-              <div class="d-flex row justify-content-center align-items-center">
-                <div class="col-12">
-                  <iframe
-                    id="rj-music-iframe"
-                    allow="autoplay"
-                    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/1729157&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
-                  ></iframe>
-                  <div
-                    style="
+		<div class="generic-wrapper">
+			<div class="rj-section" id="music">
+				<section class="rj-generic-wrapper">
+					<div class="d-flex row align-items-center justify-content-center">
+						<div class="col-12">
+							<header class="rj-section-header">
+								<h1>Music <a href="http://www.soundcloud.com/jotosti"
+										target="_blank"><i class="fab fa-soundcloud"></i></a>
+
+									<a href="#contact"><i class="far fa-comment-dots"></i></a>
+								</h1>
+
+							</header>
+						</div>
+					</div>
+					<div class="d-flex row justify-content-center align-items-center">
+						<article class="col-12 col-lg-4">
+							<div class="rj-music-container">
+								<div class="rj-container-wrapper">
+									
+										<div class="rj-content-text">
+											<h3>Rauwdouwer</h3>
+										</div>
+                                        <div class="d-flex justify-content-center">
+											<iframe class="rj-music-iframe-small" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/5390898&color=%23a2a2a2&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+										
+									</div>
+								</div>
+							</div>
+						</article>
+						<article class="col-12 col-lg-4">
+							<div class="rj-music-container">
+								<div class="rj-container-wrapper">
+									
+										<div class="rj-content-text">
+											<h3>Dauwrauwer</h3>
+										</div>
+										<div class="d-flex justify-content-center">
+											<iframe class="rj-music-iframe-small" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/5390528&color=%23a2a2a2&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+											
+										</div>
+								</div>
+							</div>
+						</article>
+						<article class="col-12 col-lg-4">
+							<div class="rj-music-container">
+								<div class="rj-container-wrapper">
+									
+										<div class="rj-content-text">
+											<h3>Koek&Tosti live</h3>
+											<div>
+												<div class="d-flex justify-content-center">
+													<iframe class="rj-music-iframe-small" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/23080680&color=%23a2a2a2&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+												</div>
+											</div>
+									</div>
+								</div>
+							</div>
+						</article>
+					</div>
+					<div class="container-fluid d-none d-sm-block">
+						<div class="d-flex row justify-content-center align-items-center">
+							<div class="col-12">
+								<iframe id="rj-music-iframe" allow="autoplay"
+									src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/1729157&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+								<div style="
                       font-size: 10px;
                       color: #cccccc;
                       line-break: anywhere;
@@ -356,556 +288,467 @@
                         Lucida Sans Unicode, Lucida Sans, Garuda, Verdana,
                         Tahoma, sans-serif;
                       font-weight: 100;
-                    "
-                  >
-                    <a
-                      href="https://soundcloud.com/jotosti"
-                      target="_blank"
-                      style="color: #cccccc; text-decoration: none;"
-                      >joTosti</a
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-        </div>
-      </div>
-      <!--    end of music -->
+                    ">
+									<a href="https://soundcloud.com/jotosti" target="_blank"
+										style="color: #cccccc; text-decoration: none;">joTosti</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
+		<!--    end of music -->
 
-      <!--  Biography section -->
+		<!--  Biography section -->
 
-      <div class="rj-generic-wrapper">
-        <div class="rj-section" id="about">
-          <section class="rj-generic-wrapper">
-            <div class="row">
-              <div class="col-12">
-                <header class="rj-article-header">
-                  <h1>Biography</h1>
-                </header>
-              </div>
-            </div>
+		<div class="rj-generic-wrapper">
+			<div class="rj-section" id="about">
+				<section class="rj-generic-wrapper">
+					<div class="row">
+						<div class="col-12">
+							<header class="rj-article-header">
+								<h1>Biography</h1>
+							</header>
+						</div>
+					</div>
 
-            <div class="d-flex row no-gutters justify-content-center">
-              <div>
-                <div class="col-12 col-md-4">
-                  <div id="rj-img-square-out">
-                    <div id="rj-img-square-in">
-                     
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-12 col-md-8">
-                <div class="row">
-                  <nav id="rj-nav-bio" class="col-12">
-                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                      <a
-                        class="nav-item nav-link active"
-                        id="nav-Past-tab"
-                        data-toggle="tab"
-                        href="#nav-Past"
-                        role="tab"
-                        aria-controls="nav-Past"
-                        aria-selected="true"
-                        >Past</a
-                      >
-                      <a
-                        class="nav-item nav-link"
-                        id="nav-Present-tab"
-                        data-toggle="tab"
-                        href="#nav-Present"
-                        role="tab"
-                        aria-controls="nav-Present"
-                        aria-selected="false"
-                        >Present</a
-                      >
-                      <a
-                        class="nav-item nav-link"
-                        id="nav-Future-tab"
-                        data-toggle="tab"
-                        href="#nav-Future"
-                        role="tab"
-                        aria-controls="nav-Future"
-                        aria-selected="false"
-                        >Future</a
-                      >
-                    </div>
-                  </nav>
+					<div class="d-flex row no-gutters justify-content-center">
+						<div>
+							<div class="col-12 col-md-4">
+								<div id="rj-img-square-out">
+									<div id="rj-img-square-in">
 
-                  <article class="col-12 rj-container2-wrap">
-                    <div class="rj-container2">
-                      <div class="rj-content-wrap">
-                        <div class="rj-content-box">
-                          <div class="rj-content-text">
-                            <h4>
-                              Seldom Seen - Biography
-                            </h4>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-md-8">
+							<div class="row">
+								<nav id="rj-nav-bio" class="col-12">
+									<div class="nav nav-tabs" id="nav-tab" role="tablist">
+										<a class="nav-item nav-link active" id="nav-Past-tab" data-toggle="tab"
+											href="#nav-Past" role="tab" aria-controls="nav-Past"
+											aria-selected="true">Past</a>
+										<a class="nav-item nav-link" id="nav-Present-tab" data-toggle="tab"
+											href="#nav-Present" role="tab" aria-controls="nav-Present"
+											aria-selected="false">Present</a>
+										<a class="nav-item nav-link" id="nav-Future-tab" data-toggle="tab"
+											href="#nav-Future" role="tab" aria-controls="nav-Future"
+											aria-selected="false">Future</a>
+									</div>
+								</nav>
 
-                            <div class="tab-content" id="nav-tabContent">
-                              <div
-                                class="tab-pane fade show active"
-                                id="nav-Past"
-                                role="tabpanel"
-                                aria-labelledby="nav-Past-tab"
-                              >
-                                <blockquote>
-                                  As I was born in 1983, I grew up listening to
-                                  all kinds of music, but the music that really
-                                  sticked was music that had some form of
-                                  electronica. Especially the warm and analog
-                                  sounds from synthesizers are sounds that I
-                                  really love, such as from the Eurythmics,
-                                  Steve Miller Band, Vangelis, Kraftwerk and
-                                  Jean Michel Jarre, to name a few.
-                                </blockquote>
+								<article class="col-12 rj-container2-wrap">
+									<div class="rj-container2">
+										<div class="rj-content-wrap">
+											
+												<div class="rj-content-text">
+													<h4>
+														Seldom Seen - Biography
+													</h4>
 
-                                <blockquote>
-                                  In the early 90's I started to listen to a
-                                  much harder sound of electronics, namely
-                                  house. Back in the day, I would go over to my
-                                  best friend's house to tape all the new music
-                                  that was on the radio or whatever my friend's
-                                  older brother would have bought on vinyl or
-                                  cd. My first record that I bought was
-                                  Prodigy's "Everybody in the place". An epic
-                                  record that I played over and over. I would
-                                  also watch MTV's Partyzone on Friday night
-                                  where I was mesmerized by all the video clips.
-                                  Especially the clip from "The Future Sound Of
-                                  London" blew my mind.
-                                </blockquote>
-                                <blockquote>
-                                  Later on in the 90's, I also started messing
-                                  around with computers and found a way to make
-                                  music. I was 12 when I started with Impulse
-                                  Tracker, a music producing program that ran in
-                                  DOS. For a couple of years I messed around
-                                  with computers, but after a major crash on my
-                                  harddrive I stopped making music for a
-                                  while...
-                                </blockquote>
+													<div class="tab-content" id="nav-tabContent">
+														<div class="tab-pane fade show active" id="nav-Past"
+															role="tabpanel" aria-labelledby="nav-Past-tab">
+															<blockquote>
+																As I was born in 1983, I grew up listening to
+																all kinds of music, but the music that really
+																sticked was music that had some form of
+																electronica. Especially the warm and analog
+																sounds from synthesizers are sounds that I
+																really love, such as from the Eurythmics,
+																Steve Miller Band, Vangelis, Kraftwerk and
+																Jean Michel Jarre, to name a few.
+															</blockquote>
 
-                                <blockquote>
-                                  I was in my late teens as the 90's came to an
-                                  end and I went in search of a more 'extreme'
-                                  kind of house music. In my hometown Eindhoven,
-                                  I would go to every drum 'n bass party I could
-                                  find, like Redzone in de Effenaar or one of
-                                  the techno nights organized by Zodiak Commune.
-                                  The one party I remember particularly well was
-                                  the epic queens day festival. And not to
-                                  forget, all the squat parties I ended up in.
-                                  In these squats, everything was a bit more
-                                  raw, but also more pure, as was the music.
-                                  Besides house, jungle and drum 'n bass, I fell
-                                  in love with the acid techno and rave sounds.
-                                </blockquote>
-                              </div>
-                              <div
-                                class="tab-pane fade"
-                                id="nav-Present"
-                                role="tabpanel"
-                                aria-labelledby="nav-Present-tab"
-                              >
-                                <blockquote>
-                                  After the turn of the century, I was still
-                                  searching for that pure underground feeling.
-                                  Somehow I always felt there was more to a rave
-                                  then just the music. Turned out I was right.
-                                  After a sweaty jungle night in cafe de
-                                  Bakkerij, I was chilling out and having a chat
-                                  with a guy and at a moment he reached in his
-                                  pocket and took a piece of paper with some
-                                  punky pictures on it and a cell phone number.
-                                  It was a flyer for a freeparty, as they are
-                                  called. He instructed me to call the number on
-                                  the date of the party around 2200 and wait for
-                                  instructions.
-                                </blockquote>
+															<blockquote>
+																In the early 90's I started to listen to a
+																much harder sound of electronics, namely
+																house. Back in the day, I would go over to my
+																best friend's house to tape all the new music
+																that was on the radio or whatever my friend's
+																older brother would have bought on vinyl or
+																cd. My first record that I bought was
+																Prodigy's "Everybody in the place". An epic
+																record that I played over and over. I would
+																also watch MTV's Partyzone on Friday night
+																where I was mesmerized by all the video clips.
+																Especially the clip from "The Future Sound Of
+																London" blew my mind.
+															</blockquote>
+															<blockquote>
+																Later on in the 90's, I also started messing
+																around with computers and found a way to make
+																music. I was 12 when I started with Impulse
+																Tracker, a music producing program that ran in
+																DOS. For a couple of years I messed around
+																with computers, but after a major crash on my
+																harddrive I stopped making music for a
+																while...
+															</blockquote>
 
-                                <blockquote>
-                                  That Saturday evening, me and some friends
-                                  called the number, followed the vague route
-                                  descriptions and ended up in an old abandonded
-                                  warehouse in the Breda area. There was a dodgy
-                                  entrance going into the very narrow cellar
-                                  underneath the warehouse. We couldn't see much
-                                  because it was full of people, smoke from
-                                  smoke machines, a couple of strobes and most
-                                  importantly, very disorientating, pounding
-                                  beats. These beats were something else, it was
-                                  a lot of things: acid, hardcore, drum 'n bass,
-                                  basically a lot of elements of house music.
-                                  Some time later on, I found out this kind of
-                                  music is called Tekno. The bastard brother of
-                                  techno.
-                                </blockquote>
+															<blockquote>
+																I was in my late teens as the 90's came to an
+																end and I went in search of a more 'extreme'
+																kind of house music. In my hometown Eindhoven,
+																I would go to every drum 'n bass party I could
+																find, like Redzone in de Effenaar or one of
+																the techno nights organized by Zodiak Commune.
+																The one party I remember particularly well was
+																the epic queens day festival. And not to
+																forget, all the squat parties I ended up in.
+																In these squats, everything was a bit more
+																raw, but also more pure, as was the music.
+																Besides house, jungle and drum 'n bass, I fell
+																in love with the acid techno and rave sounds.
+															</blockquote>
+														</div>
+														<div class="tab-pane fade" id="nav-Present" role="tabpanel"
+															aria-labelledby="nav-Present-tab">
+															<blockquote>
+																After the turn of the century, I was still
+																searching for that pure underground feeling.
+																Somehow I always felt there was more to a rave
+																then just the music. Turned out I was right.
+																After a sweaty jungle night in cafe de
+																Bakkerij, I was chilling out and having a chat
+																with a guy and at a moment he reached in his
+																pocket and took a piece of paper with some
+																punky pictures on it and a cell phone number.
+																It was a flyer for a freeparty, as they are
+																called. He instructed me to call the number on
+																the date of the party around 2200 and wait for
+																instructions.
+															</blockquote>
 
-                                <blockquote>
-                                  In 2004, I came in contact with more
-                                  freeparty's, expanded my network and went on
-                                  going to a lot of party's. And not only in the
-                                  Netherlands, but also in France, Germany and
-                                  Czech Republic. At one point, me and my
-                                  friends decided to start organizing parties
-                                  ourself. We bought some old equipment and soon
-                                  enough we had created a soundsystem. To this
-                                  day, we are still throwing parties! Since
-                                  2007, I picked up music production again. I
-                                  found out it's better and more fun to use
-                                  synthesizers and drummachines, then solely the
-                                  computer. One machine that I really love is
-                                  the
-                                  <a
-                                    href="https://en.wikipedia.org/wiki/Electribe"
-                                    target="_blank"
-                                    >korg electribe EMX1</a
-                                  >.
-                                </blockquote>
-                              </div>
-                              <div
-                                class="tab-pane fade"
-                                id="nav-Future"
-                                role="tabpanel"
-                                aria-labelledby="nav-Future-tab"
-                              >
-                                <blockquote>
-                                  After 12+ years of knob twiddling, beat
-                                  juggling and various performances, I am ready
-                                  to present my music to the people who need
-                                  and/or want it. For a long time I felt
-                                  insecure about my music, but after some
-                                  positive feedback and constructive criticism
-                                  from the lovely people around me, I'm taking
-                                  steps to start bringing out tracks. One good
-                                  way of reaching a crowd is having an online
-                                  presence. As you may notice, that is coming
-                                  along nicely ;)
-                                </blockquote>
+															<blockquote>
+																That Saturday evening, me and some friends
+																called the number, followed the vague route
+																descriptions and ended up in an old abandonded
+																warehouse in the Breda area. There was a dodgy
+																entrance going into the very narrow cellar
+																underneath the warehouse. We couldn't see much
+																because it was full of people, smoke from
+																smoke machines, a couple of strobes and most
+																importantly, very disorientating, pounding
+																beats. These beats were something else, it was
+																a lot of things: acid, hardcore, drum 'n bass,
+																basically a lot of elements of house music.
+																Some time later on, I found out this kind of
+																music is called Tekno. The bastard brother of
+																techno.
+															</blockquote>
 
-                                <blockquote>
-                                  First of all, I want to release the tracks on
-                                  the internet to see if people like it and I
-                                  want to encourage them to give me some
-                                  feedback. After some revising, I plan to bring
-                                  it out on vinyl, so it can be played wherever,
-                                  whenever.
-                                </blockquote>
+															<blockquote>
+																In 2004, I came in contact with more
+																freeparty's, expanded my network and went on
+																going to a lot of party's. And not only in the
+																Netherlands, but also in France, Germany and
+																Czech Republic. At one point, me and my
+																friends decided to start organizing parties
+																ourself. We bought some old equipment and soon
+																enough we had created a soundsystem. To this
+																day, we are still throwing parties! Since
+																2007, I picked up music production again. I
+																found out it's better and more fun to use
+																synthesizers and drummachines, then solely the
+																computer. One machine that I really love is
+																the
+																<a href="https://en.wikipedia.org/wiki/Electribe"
+																	target="_blank">korg electribe EMX1</a>.
+															</blockquote>
+														</div>
+														<div class="tab-pane fade" id="nav-Future" role="tabpanel"
+															aria-labelledby="nav-Future-tab">
+															<blockquote>
+																After 12+ years of knob twiddling, beat
+																juggling and various performances, I am ready
+																to present my music to the people who need
+																and/or want it. For a long time I felt
+																insecure about my music, but after some
+																positive feedback and constructive criticism
+																from the lovely people around me, I'm taking
+																steps to start bringing out tracks. One good
+																way of reaching a crowd is having an online
+																presence. As you may notice, that is coming
+																along nicely ;)
+															</blockquote>
 
-                                <blockquote>
-                                  So if you want to listen to my tracks, go
-                                  ahead and visit the
-                                  <a href="#music">music section</a> . If you
-                                  feel like leaving me a message with your
-                                  feedback or with anything you want to say, go
-                                  to the <a href="#contact">contact form</a>.
-                                  And if you want to know if I'm playing
-                                  somewhere anytime soon, check out the
-                                  <a href="#events"> events </a>. This concludes
-                                  my biography! <br />
-                                  <strong
+															<blockquote>
+																First of all, I want to release the tracks on
+																the internet to see if people like it and I
+																want to encourage them to give me some
+																feedback. After some revising, I plan to bring
+																it out on vinyl, so it can be played wherever,
+																whenever.
+															</blockquote>
+
+															<blockquote>
+																So if you want to listen to my tracks, go
+																ahead and visit the
+																<a href="#music">music section</a> . If you
+																feel like leaving me a message with your
+																feedback or with anything you want to say, go
+																to the <a href="#contact">contact form</a>.
+																And if you want to know if I'm playing
+																somewhere anytime soon, check out the
+																<a href="#events"> events </a>. This concludes
+																my biography! <br />
+																<strong
                                     >C U soon even though I'm Seldom Seen ;)
-                                    1love</strong
-                                  >
-                                </blockquote>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </article>
-                </div>
-              </div>
-            </div>
-          </section>
-        </div>
-      </div>
-      <!-- end of biography -->
+                                    1love</strong>
+															</blockquote>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+								</article>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
+		<!-- end of biography -->
 
-      <!-- gallery -->
-      <div class="rj-generic-wrapper">
-        <div class="rj-section" id="gallery">
-          <section class="container rj-generic-wrapper">
-            <div class="d-flex row align-items-center justify-content-center">
-              <div class="col-12">
-                <header class="rj-article-header">
-                  <h1>Gallery</h1>
-                </header>
-              </div>
-            </div>
-            <div class="container-fluid">
-              <div class="d-flex row align-items-center justify-content-center">
-                <div class="col-12 rj-carousel-container">
-                  <!-- Bootstrap carousel -->
-                  <div
-                    id="rj-carousel-captions"
-                    class="carousel slide carousel-fade"
-                    data-ride="carousel"
-                  >
-                    <ol class="carousel-indicators">
-                      <li
-                        data-target="#rj-carousel-captions"
-                        data-slide-to="0"
-                        class="active"
-                      ></li>
-                      <li
-                        data-target="#rj-carousel-captions"
-                        data-slide-to="1"
-                      ></li>
-                      <li
-                        data-target="#rj-carousel-captions"
-                        data-slide-to="2"
-                      ></li>
-                      <li
-                        data-target="#rj-carousel-captions"
-                        data-slide-to="3"
-                      ></li>
-                      <li
-                        data-target="#rj-carousel-captions"
-                        data-slide-to="4"
-                      ></li>
-                      <li
-                        data-target="#rj-carousel-captions"
-                        data-slide-to="5"
-                      ></li>
-                      <li
-                        data-target="#rj-carousel-captions"
-                        data-slide-to="6"
-                      ></li>
-                      <li
-                        data-target="#rj-carousel-captions"
-                        data-slide-to="7"
-                      ></li>
-                      <li
-                        data-target="#rj-carousel-captions"
-                        data-slide-to="8"
-                      ></li>
-                      <li
-                        data-target="#rj-carousel-captions"
-                        data-slide-to="9"
-                      ></li>
-                      <li
-                        data-target="#rj-carousel-captions"
-                        data-slide-to="10"
-                      ></li>
-                      <li
-                        data-target="#rj-carousel-captions"
-                        data-slide-to="11"
-                      ></li>
-                    </ol>
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img
+		<!-- gallery -->
+		<div class="rj-generic-wrapper">
+			<div class="rj-section" id="gallery">
+				<section class="container rj-generic-wrapper">
+					<div class="d-flex row align-items-center justify-content-center">
+						<div class="col-12">
+							<header class="rj-article-header">
+								<h1>Gallery</h1>
+							</header>
+						</div>
+					</div>
+					<div class="container-fluid">
+						<div class="d-flex row align-items-center justify-content-center">
+							<div class="col-12 rj-carousel-container">
+								<!-- Bootstrap carousel -->
+								<div id="rj-carousel-captions" class="carousel slide carousel-fade"
+									data-ride="carousel">
+									<ol class="carousel-indicators">
+										<li data-target="#rj-carousel-captions" data-slide-to="0" class="active">
+										</li>
+										<li data-target="#rj-carousel-captions" data-slide-to="1"></li>
+										<li data-target="#rj-carousel-captions" data-slide-to="2"></li>
+										<li data-target="#rj-carousel-captions" data-slide-to="3"></li>
+										<li data-target="#rj-carousel-captions" data-slide-to="4"></li>
+										<li data-target="#rj-carousel-captions" data-slide-to="5"></li>
+										<li data-target="#rj-carousel-captions" data-slide-to="6"></li>
+										<li data-target="#rj-carousel-captions" data-slide-to="7"></li>
+										<li data-target="#rj-carousel-captions" data-slide-to="8"></li>
+										<li data-target="#rj-carousel-captions" data-slide-to="9"></li>
+										<li data-target="#rj-carousel-captions" data-slide-to="10"></li>
+										<li data-target="#rj-carousel-captions" data-slide-to="11"></li>
+									</ol>
+									<div class="carousel-inner">
+										<div class="carousel-item active">
+											<img
                           src="./assets/img/jos1.jpg"
                           class="d-block w-100 rj-carousel-img"
                           alt="imageOfJos"
                         />
-                        <div class="carousel-caption">
-                          <h6>Live @ Kierewiet freeparty</h6>
-                          <p>
-                            Liveset at Kierewiet 7,5 years kierewiet party ,
-                            Deventer NL
-                          </p>
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <img
+											<div class="carousel-caption">
+												<h6>Live @ Kierewiet freeparty</h6>
+												<p>
+													Liveset at Kierewiet 7,5 years kierewiet party ,
+													Deventer NL
+												</p>
+											</div>
+										</div>
+										<div class="carousel-item">
+											<img
                           src="./assets/img/jos2.jpg"
                           class="d-block w-100 rj-carousel-img"
                           alt="imageOfJos"
                         />
-                        <div class="carousel-caption">
-                          <h6>Live @ Newyears eve party 2008/2009</h6>
-                          <p>
-                            My first live perfomance for a big crowd ! Groningen
-                            NL
-                          </p>
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <img
+											<div class="carousel-caption">
+												<h6>Live @ Newyears eve party 2008/2009</h6>
+												<p>
+													My first live perfomance for a big crowd ! Groningen
+													NL
+												</p>
+											</div>
+										</div>
+										<div class="carousel-item">
+											<img
                           src="./assets/img/jos3.jpg"
                           class="d-block w-100 rj-carousel-img"
                           alt="imageOfJos"
                         />
-                        <div class="carousel-caption">
-                          <h6>Tosti aka TAFKAT aka SLDMSN</h6>
-                          <p>photo by Jette</p>
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <img
+											<div class="carousel-caption">
+												<h6>Tosti aka TAFKAT aka SLDMSN</h6>
+												<p>photo by Jette</p>
+											</div>
+										</div>
+										<div class="carousel-item">
+											<img
                           src="./assets/img/josstreet.jpg"
                           class="d-block w-100 rj-carousel-img"
                           alt="imageOfJos"
                         />
-                        <div class="carousel-caption">
-                          <h6>
-                            Live @ ADEV , Amsterdam NL
-                          </h6>
-                          <p>
-                            Liveset in truck of PK / SoS / TBS soundsystem photo by Elyse Haas
-                    
-                          </p>
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <img
+											<div class="carousel-caption">
+												<h6>
+													Live @ ADEV , Amsterdam NL
+												</h6>
+												<p>
+													Liveset in truck of PK / SoS / TBS soundsystem photo by Elyse
+													Haas
+
+												</p>
+											</div>
+										</div>
+										<div class="carousel-item">
+											<img
                           src="./assets/img/jos5.jpg"
                           class="d-block w-100 rj-carousel-img"
                           alt="imageOfJos"
                         />
-                        <div class="carousel-caption">
-                          <h6>Playing at home</h6>
-                          <p>Making some beats at home</p>
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <img
+											<div class="carousel-caption">
+												<h6>Playing at home</h6>
+												<p>Making some beats at home</p>
+											</div>
+										</div>
+										<div class="carousel-item">
+											<img
                           src="./assets/img/jos6.jpg"
                           class="d-block w-100 rj-carousel-img"
                           alt="imageOfJos"
                         />
-                        <div class="carousel-caption">
-                          <h6>Live @ Teknival Spain 2011</h6>
-                          <p>Playing live at Kierewiet Soundsystem</p>
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <img
+											<div class="carousel-caption">
+												<h6>Live @ Teknival Spain 2011</h6>
+												<p>Playing live at Kierewiet Soundsystem</p>
+											</div>
+										</div>
+										<div class="carousel-item">
+											<img
                           src="./assets/img/jos7.jpg"
                           class="d-block w-100 rj-carousel-img"
                           alt="imageOfJos"
                         />
-                        <div class="carousel-caption">
-                          <h6>
-                            Live @ afterparty NYE 2013 , Nieuwegein NL
-                          </h6>
-                          <p>Liveset/vinyl battle with Lawaaige buur</p>
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <img
+											<div class="carousel-caption">
+												<h6>
+													Live @ afterparty NYE 2013 , Nieuwegein NL
+												</h6>
+												<p>Liveset/vinyl battle with Lawaaige buur</p>
+											</div>
+										</div>
+										<div class="carousel-item">
+											<img
                           src="./assets/img/jos8.jpg"
                           class="d-block w-100 rj-carousel-img"
                           alt="imageOfJos"
                         />
-                        <div class="carousel-caption">
-                          <h6>Live @ Teknozems party , Amsterdam NL</h6>
-                          <p>Liveset at teknozems party in venue pand14</p>
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <img
+											<div class="carousel-caption">
+												<h6>Live @ Teknozems party , Amsterdam NL</h6>
+												<p>Liveset at teknozems party in venue pand14</p>
+											</div>
+										</div>
+										<div class="carousel-item">
+											<img
                           src="./assets/img/jos9.jpg"
                           class="d-block w-100 rj-carousel-img"
                           alt="imageOfJos"
                         />
-                        <div class="carousel-caption">
-                          <h6>Jamsession at friends place , Utrecht NL</h6>
-                          <p>Jamming with friends</p>
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <img
+											<div class="carousel-caption">
+												<h6>Jamsession at friends place , Utrecht NL</h6>
+												<p>Jamming with friends</p>
+											</div>
+										</div>
+										<div class="carousel-item">
+											<img
                           src="./assets/img/jos10.jpg"
                           class="d-block w-100 rj-carousel-img"
                           alt="imageOfJos"
                         />
-                        <div class="carousel-caption">
-                          <h6>Preparing liveset at Frenchtek 2014 , F</h6>
-                          <p>In my bear-suit doing some preparing backstage</p>
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <img
+											<div class="carousel-caption">
+												<h6>Preparing liveset at Frenchtek 2014 , F</h6>
+												<p>In my bear-suit doing some preparing backstage</p>
+											</div>
+										</div>
+										<div class="carousel-item">
+											<img
                           src="./assets/img/jos11.jpg"
                           class="d-block w-100 rj-carousel-img"
                           alt="imageOfJos"
                         />
-                        <div class="carousel-caption">
-                          <h6>Live at TBS party , Nijmegen NL</h6>
-                          <p>Me and my friends , supporting me as always ;)</p>
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <img
+											<div class="carousel-caption">
+												<h6>Live at TBS party , Nijmegen NL</h6>
+												<p>Me and my friends , supporting me as always ;)</p>
+											</div>
+										</div>
+										<div class="carousel-item">
+											<img
                           src="./assets/img/emxheroimage.jpg"
                           class="d-block w-100 rj-carousel-img"
                           alt="imageOfJos"
                         />
-                        <div class="carousel-caption">
-                          <h6>Live somewhere in a squat , Utrecht NL</h6>
-                          <p>Beautiful action photo taken by Alex</p>
-                        </div>
-                      </div>
-                  <a class="carousel-control-prev" href="#rj-carousel-captions" role="button" data-slide="prev">
-    <span><i class="fas fa-arrow-alt-circle-left rj-carousel-icon"></i></span>
-    <span class="sr-only">Previous</span>
-</a>
-<a class="carousel-control-next" href="#rj-carousel-captions" role="button" data-slide="next">
-    <span><i class="fas fa-arrow-alt-circle-right rj-carousel-icon"></i></span>
-    <span class="sr-only">Next</span>
- </a>
-                    </div>
+											<div class="carousel-caption">
+												<h6>Live somewhere in a squat , Utrecht NL</h6>
+												<p>Beautiful action photo taken by Alex</p>
+											</div>
+										</div>
+										<a class="carousel-control-prev" href="#rj-carousel-captions" role="button"
+											data-slide="prev">
+											<span><i class="fas fa-arrow-alt-circle-left rj-carousel-icon"></i></span>
+											<span class="sr-only">Previous</span>
+										</a>
+										<a class="carousel-control-next" href="#rj-carousel-captions" role="button"
+											data-slide="next">
+											<span><i class="fas fa-arrow-alt-circle-right rj-carousel-icon"></i></span>
+											<span class="sr-only">Next</span>
+										</a>
+									</div>
 
-                    <!-- End carousel -->
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-        </div>
-      </div>
-      <!-- end of gallery -->
-    </main>
-    <!-- events / contact  section-->
-    <div class="rj-generic-wrapper">
-      <div class="rj-section" id="events">
-        <section class="rj-generic-wrapper">
-          <div
-            class="d-flex row no-gutters align-items-center justify-content-center"
-          >
-            <div class="col-12 col-md-6">
-              <header class="rj-article-header rj-form-header">
-                <h1>Events</h1>
-              </header>
-              <article class="rj-events">
-                <div class="rj-events-text">
-                  <p>Every 1st Saturday - livestream</p>
-                  <p>
-                    <a
-                      href="https://www.face
-                                        book.com/jos.volumen"
-                      target="_blank"
-                      >facebook live
-                    </a>
-                  </p>
-                  <hr class="block-divider" />
-                  <p>25/6/20 - livestream</p>
-                  <p>
-                    <a href="https://www.youtek.net">Youtek radio</a>
-                  </p>
-                  <hr class="block-divider" />
-                  <p>?/09/20 - End Summer celabration</p>
-                  <p>TBA</p>
-                  <hr class="block-divider" />
-                </div>
-              </article>
-            </div>
-            <div class="col-12 col-md-6" id="contact">
-              <header class="rj-article-header">
-                <h1>Contact</h1>
-              </header>
-              <section class="rj-section-form">
-                <form
-                  action="outofscopeofthelesson"
-                  method="post"
-                  class="rj-form"
-                >
-                  <label for="name">
+									<!-- End carousel -->
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
+		<!-- end of gallery -->
+	</main>
+	<!-- events / contact  section-->
+	<div class="rj-generic-wrapper">
+		<div class="rj-section" id="events">
+			<section class="rj-generic-wrapper">
+				<div class="d-flex row no-gutters align-items-center justify-content-center">
+					<div class="col-12 col-md-6">
+						<header class="rj-article-header rj-form-header">
+							<h1>Events</h1>
+						</header>
+						<article class="rj-events">
+							<div class="rj-events-text">
+								<p>Every 1st Saturday - livestream</p>
+								<p>
+									<a href="https://www.facebook.com/jos.volumen" target="_blank">facebook live
+									</a>
+								</p>
+								<hr class="block-divider" />
+								<p>25/6/20 - livestream</p>
+								<p>
+									<a href="https://www.youtek.net">Youtek radio</a>
+								</p>
+								<hr class="block-divider" />
+								<p>?/09/20 - End Summer celabration</p>
+								<p>TBA</p>
+								<hr class="block-divider" />
+							</div>
+						</article>
+					</div>
+					<div class="col-12 col-md-6" id="contact">
+						<header class="rj-article-header">
+							<h1>Contact</h1>
+						</header>
+						<section class="rj-section-form">
+							<form action="outofscopeofthelesson" method="post" class="rj-form">
+								<label for="name">
                     Your Name
                     <input
                       type="text"
@@ -916,7 +759,7 @@
                     />
                   </label>
 
-                  <label for="email"
+								<label for="email"
                     >Your Email
                     <input
                       type="email"
@@ -927,79 +770,70 @@
                       class="rj-form-text"
                     />
                   </label>
-                  <label for="msg"
+								<label for="msg"
                     >Your feedback/questions/etc.<br />
-                    <textarea name="msg" required class="rj-form-msg">
+                    <textarea name="msg" id= "msg" required class="rj-form-msg">
 HI!
 </textarea
                     >
                   </label>
-                  <input
+								<input
                     type="submit"
                     value="Send!"
                     class="btn rj-button rj-form-btn"
                   />
                 </form>
-              </section>
-            </div>
-          </div>
-        </section>
-      </div>
-    </div>
+						</section>
+					</div>
+				</div>
+			</section>
+		</div>
+	</div>
 
-    <footer class="container-fluid">
-      <div class="rj-generic-wrapper">
-        <div class="d-flex row justify-content-end align-items-center">
-          <div class="col-12 rj-footer">
-            <h3>Credits</h3>
-            <div class="rj-footer-text">
-              <p>
-                This website is designed and coded by
-                <a
-                  href="https://www.linkedin.com/in/jos-velema-7651251aa/"
-                  target="_blank"
-                  >Jos Velema</a
-                >
-              </p>
-              <p>
-                It its created as a milestone project for the
-                <a href="https://codeinstitute.net/" target="_blank"
-                  >Code institute
-                </a>
-                full stack web development course.
-              </p>
-              <hr class="block-divider" />
-              <p>
-                Photo credits to Elyse Haas 'Streetrave ADEV' , Andrea Milana
-                for the hero image and Jette Bogaerts for the profile image.
-              </p>
-              <p>
-                All other media is owned by Jos Velema unless stated otherwise.
-              </p>
-              <hr class="block-divider">
-              <small>Seldom Seen electronics / Jos Velema (C) 2020</small>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
+	<footer class="container-fluid">
+		<div class="rj-generic-wrapper">
+			<div class="d-flex row justify-content-end align-items-center">
+				<div class="col-12 rj-footer">
+					<h3>Credits</h3>
+					<div class="rj-footer-text">
+						<p>
+							This website is designed and coded by
+							<a href="https://www.linkedin.com/in/jos-velema-7651251aa/" target="_blank">Jos
+								Velema</a>
+						</p>
+						<p>
+							It its created as a milestone project for the
+							<a href="https://codeinstitute.net/" target="_blank">Code institute
+							</a>
+							full stack web development course.
+						</p>
+						<hr class="block-divider" />
+						<p>
+							Photo credits to Elyse Haas 'Streetrave ADEV' , Andrea Milana
+							for the hero image and Jette Bogaerts for the profile image.
+						</p>
+						<p>
+							All other media is owned by Jos Velema unless stated otherwise.
+						</p>
+						<hr class="block-divider">
+						<small>Seldom Seen electronics / Jos Velema (C) 2020</small>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
 
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+	</script>
 
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+	</script>
 
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+	</script>
+</body>
+
 </html>

@@ -112,7 +112,6 @@ p {
   word-wrap: break-word;
   font-size: 18px;
   margin: 4px 6px 4px 6px;
-  
 }
 /* Bootstrap styles */
 .wrapper {
@@ -337,9 +336,7 @@ nav,
   display: flex;
 }
 
-.rj-content-box {
-  flex-grow: 1;
-}
+
 
 .rj-content-text,
 .rj-welcome-text {
@@ -386,6 +383,11 @@ nav,
 
 .rj-icon-container {
   margin: 0 auto;
+}
+
+.rj-icon-container span {
+  display: flex;
+  align-items: center;
 }
 
 .rj-icon {
@@ -454,8 +456,6 @@ nav,
 }
 
 .rj-section-header {
-
-     
 }
 
 .rj-section {
@@ -499,17 +499,24 @@ nav,
 }
 
 #rj-music-iframe {
- margin-left: -10px;
-   width: 90vw;
+  margin-left: 10px;
+  width: 90vw;
   height: 300px;
-  border: 1px solid #0e243e;
-  border-radius: 6px;
+
   -webkit-box-shadow: 3px 3px 5px 1px #623a24;
   box-shadow: 3px 3px 5px 1px #623a24;
   background: #9d5d3a;
   position: relative;
   overflow-y: scroll;
 }
+.rj-music-iframe-small {
+  position: relative;
+  width: 100%;
+  height: 120px;
+  border: 1px solid #0e243e;
+  border-radius: 6px;
+}
+
 /* container for carousel and custom bootstrap styling to be responsive 
 >>>>> image contain found on stackoverflow */
 
@@ -729,7 +736,7 @@ button:focus {
 /*  footer section for credits / disclaimer */
 
 .rj-footer {
-    height: 400px;
+  height: 400px;
   width: 100%;
   background: #091727;
   background: -moz-linear-gradient(top, #091727 0%, #4e210e 45%, #9d5d3a 100%);
@@ -918,9 +925,9 @@ button:focus {
   .rj-welcome-wrap h2 {
     line-height: 26px;
   }
-.rj-form-msg {
+  .rj-form-msg {
     width: 14.5rem;
-}
+  }
 
   #rj-img-circle-out {
     width: 150px;
@@ -939,10 +946,9 @@ button:focus {
     margin-right: 0;
     margin-left: 0;
   }
-.rj-events-text {
-
+  .rj-events-text {
     height: 100%;
-}
+  }
   .rj-footer {
     height: 600px;
   }
@@ -990,7 +996,7 @@ button:focus {
       width: 329px;
       height: 600px;
     }
-    
+
     .rj-footer {
       height: 300px;
     }

@@ -9,6 +9,13 @@ information about me , listen to my music and hopefully come visit my future per
 
 ## 1. UX
 
+The website is aime at three groups. The first and main group of user is people who listen
+to (underground) electonic music. The other two groups are party promoters/label owners and other
+producers who are looking for a collabaration. Ofcourse the user can also be someone who is a combination
+of the user groups.
+
+
+
 #### 1.2. User Stories
 
 User story’s
@@ -155,6 +162,8 @@ The hamburger dropdown is viewable in all screens and also provided with text gu
 
 ## 4. Testing
 
+- W3C CSS Validator came back with no errors
+- W3C HTML Validator came back with no errors
 ---
 
 ## 5. Deployment
